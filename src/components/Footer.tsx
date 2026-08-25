@@ -156,7 +156,7 @@ export const Footer: React.FC = () => {
               rel="noopener noreferrer"
               className="text-[#A8BEAF] hover:text-white transition-colors"
             >
-              Dimas B.N.
+              Dimas BN
             </a>
           </div>
 
