@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, ArrowRight, Sparkles, MessageCircle, MonitorPlay } from 'lucide-react';
+import { Menu, X, ArrowRight, Sparkles, Send, MonitorPlay } from 'lucide-react';
 import { JmoLogo } from './JmoLogo';
 
 interface NavbarProps {
@@ -72,7 +72,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenProjectorDemo }) => {
             className="p-2 rounded-[5px] text-[#C9D6CC] hover:text-white hover:bg-[#2C4E3B] transition-colors shrink-0"
             title="Grup Komunitas Telegram Guru"
           >
-            <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#4ea075]" />
+            <Send className="w-4 h-4 sm:w-5 sm:h-5 text-[#24A1DE]" />
           </a>
 
           <a
