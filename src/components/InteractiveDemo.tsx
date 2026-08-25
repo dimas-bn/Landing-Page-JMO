@@ -29,7 +29,7 @@ export const InteractiveDemo: React.FC<InteractiveDemoProps> = ({ onOpenProjecto
   const [activeTab, setActiveTab] = useState<'isi' | 'papan' | 'rekap' | 'setup'>('isi');
 
   // Form State
-  const [selectedClass, setSelectedClass] = useState<string>('X IPA 1');
+  const [selectedClass, setSelectedClass] = useState<string>('XI 7');
   const [subject, setSubject] = useState<string>('Matematika Wajib');
   const [periodFrom, setPeriodFrom] = useState<string>('1');
   const [periodTo, setPeriodTo] = useState<string>('3');
@@ -178,25 +178,25 @@ export const InteractiveDemo: React.FC<InteractiveDemoProps> = ({ onOpenProjecto
                     </span>
                     <button
                       onClick={() => {
-                        setSelectedClass('X IPA 1');
+                        setSelectedClass('XI.7');
                         setSubject('Matematika Wajib');
                         setPeriodFrom('1');
                         setPeriodTo('3');
                       }}
                       className="px-2 py-0.5 text-xs rounded bg-[#2C4E3B] text-white font-semibold cursor-pointer"
                     >
-                      X IPA 1 (Jam 1-3)
+                      XI.7 (Jam 5-6)
                     </button>
                     <button
                       onClick={() => {
-                        setSelectedClass('XI MIPA 2');
+                        setSelectedClass('XI.8');
                         setSubject('Matematika Peminatan');
                         setPeriodFrom('7');
                         setPeriodTo('8');
                       }}
                       className="px-2 py-0.5 text-xs rounded bg-white text-[#2C4E3B] border border-[#B7C6CB] font-semibold cursor-pointer hover:bg-[#F6F2E4]"
                     >
-                      XI MIPA 2 (Jam 7-8)
+                      XI. (Jam 9-10)
                     </button>
                   </div>
                 </div>
@@ -212,9 +212,9 @@ export const InteractiveDemo: React.FC<InteractiveDemoProps> = ({ onOpenProjecto
                       onChange={e => setSelectedClass(e.target.value)}
                       className="w-full bg-white border border-[#B7C6CB] rounded-[4px] px-3 py-2 text-sm text-[#1E2B22] font-medium"
                     >
-                      <option value="X IPA 1">X IPA 1 (MIPA)</option>
-                      <option value="XI MIPA 2">XI MIPA 2</option>
-                      <option value="XII IPS 1">XII IPS 1</option>
+                      <option value="X.3">X.3</option>
+                      <option value="XI.7">XI.7</option>
+                      <option value="XII.5">XII.5</option>
                     </select>
                   </div>
 
