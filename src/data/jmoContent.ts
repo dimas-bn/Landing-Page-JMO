@@ -9,16 +9,16 @@ export const PRICING_PLANS: PricingPlan[] = [
     description: 'Coba gratis tanpa komitmen untuk merasakan kemudahan mencatat KBM dan presensi.',
     features: [
       'Akses penuh semua fitur jurnal & absensi',
-      'Setup kelas, siswa & jadwal tanpa batas',
+      'Kelola kelas, siswa & jadwal tanpa batas',
       'Sistem poin keaktifan siswa (0-7 poin)',
-      'Akses Papan Poin online untuk proyektor',
+      'Akses Papan Poin online — proyektor, TV, & HP',
       'Rekap bulanan otomatis siap cetak / PDF',
       'Export data ke format CSV / Excel',
     ],
     ctaText: 'Mulai Uji Coba Gratis',
     ctaLink: '#demo-interaktif',
     isPopular: false,
-    highlightNote: 'Tanpa perlu kartu kredit',
+    highlightNote: 'Tanpa perlu bayar dulu',
   },
   {
     id: 'bulanan',
@@ -32,7 +32,7 @@ export const PRICING_PLANS: PricingPlan[] = [
       'Akses multi-perangkat (HP, Tablet, Laptop)',
       'Backup cloud aman & tempat sampah pemulihan',
       'Akses grup komunitas Telegram guru JMO',
-      'Bantuan teknis langsung dari pengembang',
+      'Bantuan teknis langsung dari pengembang di Grup Telegram',
     ],
     ctaText: 'Pilih Paket Bulanan',
     ctaLink: 'https://dimasbn.myr.id/membership/jurnal-mengajar-online-paket-bulanan',
@@ -50,9 +50,9 @@ export const PRICING_PLANS: PricingPlan[] = [
     features: [
       'Hemat 25% dibanding bayar bulanan',
       'Masa aktif 365 hari penuh tanpa repot',
-      'Fitur Papan Poin Proyektor tanpa batas kelas',
+      'Fitur Papan Poin Live tanpa batas kelas',
       'Template rekap format standar dinas/sekolah',
-      'Prioritas bantuan teknis & konsultasi setup',
+      'Prioritas bantuan teknis di Grup Telegram',
       'Akses awal ke fitur-fitur versi terbaru',
     ],
     ctaText: 'Langganan 1 Tahun Sekarang',
@@ -71,7 +71,7 @@ export const PRICING_PLANS: PricingPlan[] = [
       'Akses seumur hidup (Lifetime Access)',
       'Tidak ada biaya perpanjangan tahunan lagi',
       'Semua pembaruan fitur di masa depan GRATIS',
-      'Dukungan VIP & fast response dari pembuat',
+      'Dukungan fast response dari pembuat via Grup Telegram',
       'Bebas ekspor data dan cetak laporan kapan saja',
       'Akses grup eksklusif guru pengguna Lifetime',
     ],
@@ -79,6 +79,10 @@ export const PRICING_PLANS: PricingPlan[] = [
     ctaLink: 'https://dimasbn.myr.id/membership/jurnal-mengajar-online-lifetime-sekali-bayar',
     isPopular: false,
     highlightNote: 'Investasi sekali tanpa beban',
+    bonusLink: {
+      label: 'Bonus: akses Direktori Data Kelas',
+      url: 'https://www.dimasbn.my.id/p/aplikasi-data-kelas-direktori-kelas.html',
+    },
   },
 ];
 
@@ -126,9 +130,9 @@ export const FEATURE_HIGHLIGHTS: FeatureHighlight[] = [
     id: 'projector-scoreboard',
     title: 'Papan Poin Live untuk Proyektor Kelas',
     tagline: 'Bikin Suasana Kelas Kompetitif & Menyenangkan',
-    description: 'Setiap kelas memiliki link publik Papan Poin khusus. Buka di layar proyektor atau smart TV depan kelas — nilai dan ranking otomatis terupdate seketika.',
+    description: 'Setiap kelas memiliki link publik Papan Poin khusus — bisa dibuka di layar proyektor atau smart TV depan kelas untuk ditonton bersama, atau langsung dari HP masing-masing siswa maupun guru. Nilai dan ranking otomatis terupdate seketika.',
     points: [
-      'Siswa bisa melihat poin mereka secara transparan',
+      'Bisa dibuka bersamaan di proyektor, smart TV, maupun HP siswa & guru',
       'Tanpa perlu siswa menginstall aplikasi atau login',
       'Peringkat otomatis terurut dari yang teraktif',
       'Meningkatkan partisipasi belajar dan disiplin kelas'
@@ -238,7 +242,7 @@ export const FAQS: FAQItem[] = [
     id: 'faq-2',
     category: 'fitur',
     question: 'Bagaimana cara menampilkan Papan Poin di proyektor kelas?',
-    answer: 'Di menu Setup Kelas, terdapat tombol "🚀 Papan Poin". Anda cukup menyalin link unik tersebut dan membukanya di browser laptop yang terhubung ke proyektor. Halaman tersebut khusus menampilkan leaderboard peringkat poin siswa tanpa tombol edit, sehingga aman dilihat seluruh siswa.'
+    answer: 'Di menu Setup Kelas, terdapat tombol "🚀 Papan Poin". Anda cukup menyalin link unik tersebut dan membukanya di laptop yang terhubung ke proyektor/smart TV, atau langsung dari browser HP siswa maupun guru. Halaman tersebut khusus menampilkan leaderboard peringkat poin siswa tanpa tombol edit, sehingga aman dilihat seluruh siswa.'
   },
   {
     id: 'faq-3',
@@ -262,7 +266,7 @@ export const FAQS: FAQItem[] = [
     id: 'faq-6',
     category: 'pembelian',
     question: 'Bagaimana metode pembayaran dan proses aktivasi akun?',
-    answer: 'Pembayaran dapat dilakukan dengan mudah melalui QRIS (GoPay, OVO, Dana, ShopeePay, BCA/Bank transfer). Setelah pembayaran terkonfirmasi di platform dimasbn.myr.id, akun Anda akan otomatis aktif sesuai paket yang dipilih.'
+    answer: 'Pembayaran dapat dilakukan dengan mudah melalui QRIS (GoPay, OVO, Dana, ShopeePay, BCA/Bank transfer) di platform dimasbn.myr.id. Setelah itu, daftar/login di member.jurnalmengajar.web.id dengan email yang sama dengan email pembayaran, lalu konfirmasi bukti bayar di Grup Telegram — akun Anda akan diaktifkan maksimal dalam 1x24 jam.'
   },
   {
     id: 'faq-7',
