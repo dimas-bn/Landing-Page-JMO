@@ -48,17 +48,17 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProjectorDemo }) => {
         {/* Main Headline */}
         <div className="text-center max-w-3xl mx-auto mb-8">
           <h1 className="font-serif-heading text-3xl sm:text-4xl md:text-5xl lg:text-[54px] font-semibold italic text-[#F6F2E4] leading-[1.18] tracking-tight mb-5">
-            Tinggalkan Tumpukan Buku Kertas.
+            Mengajar Sudah Cukup Menguras Energi.
             <br />
             <span className="text-[#C08A2E] not-italic font-normal">
-              Catat KBM, Absensi, & Poin Siswa
+              Jangan Biarkan Administrasi
             </span>{' '}
-            Lebih Cepat & Rapi.
+            Ikut Mengurasnya.
           </h1>
 
           <p className="text-[#C9D6CC] text-base sm:text-lg leading-relaxed max-w-2xl mx-auto font-normal">
             Solusi digital praktis untuk guru Indonesia. Dilengkapi pengingat jadwal KBM harian,
-            rekap presensi otomatis 1-klik siap cetak / PDF, dan papan poin live proyektor kelas.
+            rekap presensi otomatis 1-klik siap cetak / PDF, dan papan poin live.
           </p>
         </div>
 
@@ -93,11 +93,11 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProjectorDemo }) => {
           </div>
           <div className="flex items-center gap-1.5">
             <Clock className="w-4 h-4 text-[#C08A2E]" />
-            <span>Hemat 45+ menit per minggu</span>
+            <span>Hemat 60+ menit per minggu</span>
           </div>
           <div className="flex items-center gap-1.5">
             <ShieldCheck className="w-4 h-4 text-[#C08A2E]" />
-            <span>Rekap & data aman di cloud</span>
+            <span>Rekap & data aman di server</span>
           </div>
         </div>
 
@@ -110,11 +110,11 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProjectorDemo }) => {
               <span className="w-2.5 h-2.5 rounded-full bg-[#C08A2E]"></span>
               <span className="w-2.5 h-2.5 rounded-full bg-[#3E6B52]"></span>
               <span className="text-xs font-semibold text-[#CFE0D3] ml-1">
-                Jurnal Mengajar Online · Tampilan Lembar Catatan
+                Jurnal Mengajar Online · Contoh Tampilan Aplikasi
               </span>
             </div>
             <div className="text-[11px] bg-[#1E2B22] px-2 py-0.5 rounded text-[#C9D6CC] border border-[#3E6B52]">
-              KBM Aktif: X IPA 1
+              KBM Aktif: XII 1
             </div>
           </div>
 
@@ -127,7 +127,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProjectorDemo }) => {
                   Hari & Tanggal KBM
                 </p>
                 <h3 className="font-serif-heading font-semibold text-lg sm:text-xl text-[#2C4E3B] italic">
-                  Senin, 24 Agustus 2026 · Jam ke 1-3
+                  Senin, 26 Agustus 2026 · Jam ke 2-3
                 </h3>
               </div>
               <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-[#E4EEE7] text-[#2C4E3B] border border-[#B7C6CB]">
@@ -138,7 +138,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProjectorDemo }) => {
             {/* Quick reminder banner */}
             <div className="bg-[#FFF6D8] border border-[#E8D98A] rounded-[5px] p-2.5 text-xs text-[#5C4319] mb-4 flex items-center justify-between">
               <span className="flex items-center gap-1.5 font-medium">
-                <span>⏰ Pengingat:</span> 1 kelas tersisa hari ini (XI MIPA 2 Jam 7-8).
+                <span>⏰ Pengingat:</span> 1 kelas tersisa hari ini (XII 5 Jam 7-8).
               </span>
               <span className="text-[10px] font-bold text-[#8A7220] uppercase bg-[#F6F2E4] px-1.5 py-0.5 rounded border border-[#E8D98A]">
                 Otomatis
@@ -178,10 +178,10 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProjectorDemo }) => {
               <div className="bg-white border border-[#D8CDB0] rounded-[6px] p-3 sm:p-3.5 shadow-sm space-y-3">
                 <div className="flex items-center justify-between">
                   <div className="font-semibold text-sm text-[#1E2B22]">
-                    1. Aditya Pratama
+                    1. Andrea Hutama
                   </div>
                   <div className="text-xs text-[#6E6252]">
-                    Kelas X IPA 1
+                    Kelas XII 1
                   </div>
                 </div>
 
@@ -251,14 +251,14 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProjectorDemo }) => {
             {/* Quick Live Preview Footer */}
             <div className="mt-4 pt-3 border-t border-[#D8CDB0] flex items-center justify-between text-xs text-[#6E6252]">
               <span className="italic">
-                ✓ Otomatis tersimpan ke Cloud Supabase & Rekap Bulanan
+                ✓ Otomatis tersimpan ke Cloud Server Supabase
               </span>
               <button
                 onClick={onOpenProjectorDemo}
                 className="font-semibold text-[#2C4E3B] hover:text-[#3E6B52] underline flex items-center gap-1 cursor-pointer"
               >
                 <Trophy className="w-3.5 h-3.5 text-[#C08A2E]" />
-                Lihat di Papan Proyektor →
+                Lihat di Papan Poin Live →
               </button>
             </div>
           </div>
