@@ -97,7 +97,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProjectorDemo }) => {
           </div>
           <div className="flex items-center gap-1.5">
             <ShieldCheck className="w-4 h-4 text-[#C08A2E]" />
-            <span>Rekap & data aman di server</span>
+            <span>Rekap data aman di cloud server</span>
           </div>
         </div>
 
