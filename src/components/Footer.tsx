@@ -149,7 +149,15 @@ export const Footer: React.FC = () => {
         {/* Bottom copyright */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-[#7A8C7F] gap-3">
           <div>
-            © {new Date().getFullYear()} Jurnal Mengajar Online (JMO) · Dikembangkan oleh Dimas B.N.
+            © {new Date().getFullYear()} Jurnal Mengajar Online (JMO) · Dikembangkan oleh{' '}
+            <a
+              href="https://www.dimasbn.my.id/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#A8BEAF] hover:text-white underline underline-offset-2 transition-colors"
+            >
+              Dimas B.N.
+            </a>
           </div>
 
           <button

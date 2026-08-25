@@ -11,7 +11,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenProjectorDemo }) => {
 
   return (
     <header className="sticky top-0 z-50 bg-[#1E2B22]/95 backdrop-blur-md border-b border-[#2C4E3B] text-[#F6F2E4] transition-all">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between gap-4">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 h-16 sm:h-20 flex items-center gap-4">
         {/* Brand Logo & Title */}
         <a href="#" className="flex items-center gap-3 shrink-0 group">
           <JmoLogo size={42} withGlow className="transition-transform group-hover:scale-105 shrink-0" />
@@ -31,7 +31,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenProjectorDemo }) => {
         </a>
 
         {/* Desktop / Tablet Nav Links */}
-        <nav className="hidden md:flex items-center gap-3.5 lg:gap-5 xl:gap-7 text-xs lg:text-[13.5px] font-medium text-[#CFE0D3] whitespace-nowrap">
+        <nav className="hidden md:flex flex-1 items-center justify-center gap-3.5 lg:gap-5 xl:gap-7 text-xs lg:text-[13.5px] font-medium text-[#CFE0D3] whitespace-nowrap">
           <a href="#fitur" className="hover:text-white transition-colors py-1">
             Fitur Utama
           </a>
@@ -54,7 +54,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenProjectorDemo }) => {
         </nav>
 
         {/* Right Action Buttons */}
-        <div className="hidden md:flex items-center gap-2.5 lg:gap-3 shrink-0">
+        <div className="hidden md:flex items-center gap-3 lg:gap-3.5 shrink-0">
           <button
             type="button"
             onClick={onOpenProjectorDemo}
@@ -75,11 +75,13 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenProjectorDemo }) => {
             <Send className="w-4 h-4 sm:w-5 sm:h-5 text-[#4EA075]" />
           </a>
 
+          <div className="w-px h-6 bg-[#2C4E3B] shrink-0" />
+
           <a
             href="https://member.jurnalmengajar.web.id/"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-2.5 lg:px-3 py-2 text-xs font-semibold text-[#CFE0D3] hover:text-white transition-colors shrink-0 whitespace-nowrap"
+            className="px-3 lg:px-3.5 py-2 text-xs font-semibold rounded-[5px] text-[#CFE0D3] hover:text-white border border-[#3E6B52] hover:border-[#4EA075] hover:bg-[#2C4E3B] transition-colors shrink-0 whitespace-nowrap"
           >
             Masuk
           </a>
