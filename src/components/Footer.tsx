@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, MessageCircle, Heart, ArrowUp } from 'lucide-react';
+import { ExternalLink, Send, Heart, ArrowUp } from 'lucide-react';
 import { JmoLogo } from './JmoLogo';
 
 export const Footer: React.FC = () => {
@@ -31,7 +31,7 @@ export const Footer: React.FC = () => {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-[5px] bg-[#2C4E3B] hover:bg-[#3E6B52] text-xs font-semibold text-white transition-colors"
               >
-                <MessageCircle className="w-3.5 h-3.5 text-[#4ea075]" />
+                <Send className="w-3.5 h-3.5 text-[#4ea075]" />
                 <span>Grup Telegram Guru JMO</span>
               </a>
             </div>
