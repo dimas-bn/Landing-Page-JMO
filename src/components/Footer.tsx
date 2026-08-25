@@ -154,7 +154,7 @@ export const Footer: React.FC = () => {
               href="https://www.dimasbn.my.id/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#A8BEAF] hover:text-white underline underline-offset-2 transition-colors"
+              className="text-[#A8BEAF] hover:text-white transition-colors"
             >
               Dimas B.N.
             </a>
