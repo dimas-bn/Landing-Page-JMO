@@ -16,7 +16,7 @@ export const PRICING_PLANS: PricingPlan[] = [
       'Export data ke format CSV / Excel',
     ],
     ctaText: 'Mulai Uji Coba Gratis',
-    ctaLink: '#demo-interaktif',
+    ctaLink: 'https://member.jurnalmengajar.web.id/',
     isPopular: false,
     highlightNote: 'Tanpa perlu bayar dulu',
   },
