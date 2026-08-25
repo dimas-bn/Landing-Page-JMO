@@ -243,11 +243,6 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProjectorDemo }) => {
                     >
                       +
                     </button>
-                    {points > 3 && (
-                      <span className="text-[10px] bg-[#E4EEE7] text-[#2C4E3B] font-bold px-2 py-0.5 rounded-full border border-[#3E6B52]/30">
-                        ⭐ Aktif Menjawab (+{points - 3})
-                      </span>
-                    )}
                   </div>
                 </div>
               </div>
