@@ -1,0 +1,6 @@
+{
+  "name": "Jurnal Mengajar Online",
+  "description": "Landing page resmi Jurnal Mengajar Online (JMO) — aplikasi pencatat jurnal KBM harian guru, presensi siswa, sistem poin keaktifan, dan rekap otomatis dengan estetika buku catatan klasik.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

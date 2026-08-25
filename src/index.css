@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --ink: #1E2B22;
+    --paper: #F6F2E4;
+    --paper-line: #D8CDB0;
+    --margin: #A6493C;
+    --rule: #B7C6CB;
+    --accent: #3E6B52;
+    --accent-dark: #2C4E3B;
+    --amber: #C08A2E;
+    --brick: #B36A3C;
+    --slate: #5B6B8C;
+    --red: #A63D3D;
+    --muted: #6E6252;
+  }
+
+  body {
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--ink);
+    color: var(--ink);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif-heading {
+    font-family: 'Fraunces', Georgia, serif;
+  }
+}
+
+/* Notebook paper effect */
+.notebook-page {
+  background-color: var(--paper);
+  border-radius: 6px;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.28), 0 1px 3px rgba(0, 0, 0, 0.12);
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 31px,
+    var(--paper-line) 32px
+  );
+  background-position: 0 24px;
+}
+
+.notebook-page-clean {
+  background-color: var(--paper);
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.notebook-margin-line {
+  position: relative;
+}
+
+.notebook-margin-line::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 24px;
+  width: 2px;
+  background-color: var(--margin);
+  opacity: 0.75;
+  pointer-events: none;
+  z-index: 10;
+  box-shadow: 1px 0 0 rgba(166, 73, 60, 0.15);
+}
+
+@media (min-width: 640px) {
+  .notebook-margin-line::before {
+    left: 32px;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1E2B22;
+}
+::-webkit-scrollbar-thumb {
+  background: #3E6B52;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #508467;
+}
+
