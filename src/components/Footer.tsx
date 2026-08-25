@@ -101,6 +101,17 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <a
+                  href="https://dimasbn.myr.id/membership/jurnal-mengajar-online-paket-bulanan"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors flex items-center gap-1"
+                >
+                  <span>Langganan Paket Bulanan</span>
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+              </li>
+              <li>
+                <a
                   href="https://dimasbn.myr.id/membership/jurnal-mengajar-online-paket-tahunan"
                   target="_blank"
                   rel="noopener noreferrer"
