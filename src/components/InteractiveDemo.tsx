@@ -196,7 +196,7 @@ export const InteractiveDemo: React.FC<InteractiveDemoProps> = ({ onOpenProjecto
                       }}
                       className="px-2 py-0.5 text-xs rounded bg-white text-[#2C4E3B] border border-[#B7C6CB] font-semibold cursor-pointer hover:bg-[#F6F2E4]"
                     >
-                      XI. (Jam 9-10)
+                      XI.8 (Jam 9-10)
                     </button>
                   </div>
                 </div>
