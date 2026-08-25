@@ -72,7 +72,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenProjectorDemo }) => {
             className="p-2 rounded-[5px] text-[#C9D6CC] hover:text-white hover:bg-[#2C4E3B] transition-colors shrink-0"
             title="Grup Komunitas Telegram Guru"
           >
-            <Send className="w-4 h-4 sm:w-5 sm:h-5 text-[#24A1DE]" />
+            <Send className="w-4 h-4 sm:w-5 sm:h-5 text-[#4EA075]" />
           </a>
 
           <a
