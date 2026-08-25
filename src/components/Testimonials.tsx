@@ -1,5 +1,5 @@
 import React from 'react';
-import { Star, MessageCircle, Quote, Sparkles } from 'lucide-react';
+import { Star, Send, Quote, Sparkles } from 'lucide-react';
 import { TESTIMONIALS } from '../data/jmoContent';
 
 export const Testimonials: React.FC = () => {
@@ -66,7 +66,7 @@ export const Testimonials: React.FC = () => {
         <div className="bg-[#2C4E3B] rounded-[10px] p-6 sm:p-8 border border-[#3E6B52] shadow-xl flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-4">
             <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#1E2B22] border border-[#3E6B52] flex items-center justify-center shrink-0">
-              <MessageCircle className="w-7 h-7 text-[#4ea075]" />
+              <Send className="w-7 h-7 text-[#4ea075]" />
             </div>
             <div>
               <h3 className="font-serif-heading font-bold italic text-lg sm:text-xl text-[#F6F2E4] mb-1">
@@ -84,7 +84,7 @@ export const Testimonials: React.FC = () => {
             rel="noopener noreferrer"
             className="w-full md:w-auto px-6 py-3 rounded-[6px] bg-[#C08A2E] hover:bg-[#d69c36] text-[#1E2B22] font-bold text-xs sm:text-sm flex items-center justify-center gap-2 shrink-0 transition-colors shadow-md cursor-pointer"
           >
-            <MessageCircle className="w-4 h-4" />
+            <Send className="w-4 h-4" />
             <span>Gabung Grup Telegram</span>
           </a>
         </div>
