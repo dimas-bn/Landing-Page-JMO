@@ -83,7 +83,4 @@ export const Features: React.FC = () => {
             </div>
           );
         })}
-      </div>
-    </section>
-  );
-};
+      </div> {/* Natural bridge to free version review */} <p className="text-center text-[#C9D6CC] text-sm mt-10"> Penasaran seperti apa JMO versi gratis sebelum upgrade?{' '} <a href="https://www.dimasbn.my.id/p/aplikasi-jurnal-mengajar-online-versi.html" target="_blank" rel="noopener noreferrer" className="text-[#C08A2E] font-semibold underline decoration-[#C08A2E]/40 underline-offset-4 hover:text-[#d49933] transition-colors" > Baca ulasan lengkapnya di sini → </a> </p> </section> ); };
