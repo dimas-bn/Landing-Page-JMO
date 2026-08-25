@@ -23,7 +23,7 @@ export default function App() {
           Versi Terbaru
         </span>
         <span>
-          JMO kini dilengkapi fitur <strong>🚀 Papan Poin Live Proyektor</strong> & <strong>📋 Input Siswa Massal</strong>!
+          JMO kini dilengkapi fitur <strong>🚀 Papan Poin Live</strong> & <strong>⚡ Performa yang sat-set</strong>!
         </span>
         <a
           href="#demo-interaktif"
