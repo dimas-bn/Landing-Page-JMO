@@ -23,7 +23,7 @@ export default function App() {
           Versi Terbaru
         </span>
         <span>
-          JMO kini dilengkapi fitur <strong>🚀 Papan Poin Live</strong> & <strong>⚡ Performa yang sat-set</strong>!
+          JMO kini dilengkapi fitur <strong>🚀 Papan Poin Live</strong> & <strong>⚡ Aplikasi yang sat-set dan no ribet</strong>!
         </span>
         <a
           href="#demo-interaktif"
@@ -78,7 +78,7 @@ export default function App() {
           className="flex-1 py-2.5 px-3 bg-[#2C4E3B] text-white text-xs font-semibold rounded-[5px] border border-[#3E6B52] flex items-center justify-center gap-1"
         >
           <Trophy className="w-3.5 h-3.5 text-[#C08A2E]" />
-          <span>Demo Proyektor</span>
+          <span>Demo Papan Poin Live</span>
         </button>
 
         <a
