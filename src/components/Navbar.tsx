@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, ArrowRight, Sparkles, MessageCircle, MonitorPlay } from 'lucide-react';
+import { Menu, X, ArrowRight, Sparkles, Send, MonitorPlay } from 'lucide-react';
 import { JmoLogo } from './JmoLogo';
 
 interface NavbarProps {
@@ -11,13 +11,13 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenProjectorDemo }) => {
 
   return (
     <header className="sticky top-0 z-50 bg-[#1E2B22]/95 backdrop-blur-md border-b border-[#2C4E3B] text-[#F6F2E4] transition-all">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 xl:px-12 h-16 sm:h-20 flex items-center justify-between gap-4 lg:gap-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 h-16 sm:h-20 flex items-center gap-4">
         {/* Brand Logo & Title */}
-        <a href="#" className="flex items-center gap-3 min-w-0 flex-1 md:flex-initial group">
+        <a href="#" className="flex items-center gap-3 shrink-0 group">
           <JmoLogo size={42} withGlow className="transition-transform group-hover:scale-105 shrink-0" />
-          <div className="flex flex-col justify-center min-w-0">
-            <div className="flex items-center gap-2 min-w-0">
-              <span className="font-serif-heading font-bold italic text-lg sm:text-xl md:text-2xl tracking-wide text-[#F6F2E4] truncate">
+          <div className="flex flex-col justify-center">
+            <div className="flex items-center gap-2">
+              <span className="font-serif-heading font-bold italic text-lg sm:text-xl md:text-2xl tracking-wide text-[#F6F2E4] whitespace-nowrap">
                 Jurnal Mengajar
               </span>
               <span className="text-[10px] sm:text-[11px] font-bold tracking-wider uppercase bg-[#C08A2E] text-[#1E2B22] px-1.5 py-0.5 rounded-[4px] shadow-sm shrink-0">
@@ -31,7 +31,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenProjectorDemo }) => {
         </a>
 
         {/* Desktop / Tablet Nav Links */}
-        <nav className="hidden md:flex items-center gap-3.5 lg:gap-5 xl:gap-7 text-xs lg:text-[13.5px] font-medium text-[#CFE0D3] whitespace-nowrap shrink-0">
+        <nav className="hidden md:flex flex-1 items-center justify-center gap-3.5 lg:gap-5 xl:gap-7 text-xs lg:text-[13.5px] font-medium text-[#CFE0D3] whitespace-nowrap">
           <a href="#fitur" className="hover:text-white transition-colors py-1">
             Fitur Utama
           </a>
@@ -54,7 +54,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenProjectorDemo }) => {
         </nav>
 
         {/* Right Action Buttons */}
-        <div className="hidden md:flex items-center gap-3.5 lg:gap-4 shrink-0">
+        <div className="hidden md:flex items-center gap-3 lg:gap-3.5 shrink-0">
           <button
             type="button"
             onClick={onOpenProjectorDemo}
@@ -72,7 +72,18 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenProjectorDemo }) => {
             className="p-2 rounded-[5px] text-[#C9D6CC] hover:text-white hover:bg-[#2C4E3B] transition-colors shrink-0"
             title="Grup Komunitas Telegram Guru"
           >
-            <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#4ea075]" />
+            <Send className="w-4 h-4 sm:w-5 sm:h-5 text-[#4EA075]" />
+          </a>
+
+          <div className="w-px h-6 bg-[#2C4E3B] shrink-0" />
+
+          <a
+            href="https://member.jurnalmengajar.web.id/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-3 lg:px-3.5 py-2 text-xs font-semibold rounded-[5px] text-[#CFE0D3] hover:text-white border border-[#3E6B52] hover:border-[#4EA075] hover:bg-[#2C4E3B] transition-colors shrink-0 whitespace-nowrap"
+          >
+            Masuk
           </a>
 
           <a
@@ -88,7 +99,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenProjectorDemo }) => {
         <button
           type="button"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="md:hidden p-2 rounded-md text-[#CFE0D3] hover:text-white hover:bg-[#2C4E3B] transition-colors cursor-pointer shrink-0 ml-2"
+          className="md:hidden p-2 rounded-md text-[#CFE0D3] hover:text-white hover:bg-[#2C4E3B] transition-colors cursor-pointer shrink-0"
           aria-label="Toggle Menu"
         >
           {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -149,6 +160,15 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenProjectorDemo }) => {
               <MonitorPlay className="w-4 h-4 text-[#C08A2E]" />
               <span>Buka Demo Papan Poin Proyektor</span>
             </button>
+            <a
+              href="https://member.jurnalmengajar.web.id/"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setMobileMenuOpen(false)}
+              className="w-full py-2.5 px-3 text-center text-xs font-semibold rounded-[5px] text-[#CFE0D3] border border-[#3E6B52] flex items-center justify-center gap-2"
+            >
+              Sudah Punya Akun? Masuk
+            </a>
             <a
               href="#harga"
               onClick={() => setMobileMenuOpen(false)}
