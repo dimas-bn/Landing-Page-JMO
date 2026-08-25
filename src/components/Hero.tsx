@@ -127,7 +127,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProjectorDemo }) => {
                   Hari & Tanggal KBM
                 </p>
                 <h3 className="font-serif-heading font-semibold text-lg sm:text-xl text-[#2C4E3B] italic">
-                  Senin, 26 Agustus 2026 · Jam ke 2-3
+                  Senin, 24 Agustus 2026 · Jam ke 2-3
                 </h3>
               </div>
               <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-[#E4EEE7] text-[#2C4E3B] border border-[#B7C6CB]">
