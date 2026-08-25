@@ -83,14 +83,7 @@ export const Pricing: React.FC = () => {
                   ) : (
                     <span className="text-xs text-transparent block select-none">-</span>
                   )}
-                  <div className="flex items-baseline gap-1.5 mt-0.5">
-                    <span className="font-serif-heading font-bold text-3xl sm:text-4xl text-[#1E2B22] tracking-tight">
-                      {plan.price}
-                    </span>
-                    <span className="text-xs sm:text-[13px] text-[#6E6252] font-medium">
-                      {plan.period}
-                    </span>
-                  </div>
+                 <div className="flex flex-wrap items-baseline gap-x-1.5 gap-y-0.5 mt-0.5 min-w-0"> <span className="font-serif-heading font-bold text-3xl sm:text-4xl text-[#1E2B22] tracking-tight"> {plan.price} </span> <span className="text-xs sm:text-[13px] text-[#6E6252] font-medium break-words"> {plan.period} </span> </div>
                   {plan.highlightNote && (
                     <span className="text-[11.5px] font-bold text-[#8A6717] block mt-1.5">
                       ✓ {plan.highlightNote}
