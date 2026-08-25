@@ -32,12 +32,7 @@ export const ProjectorModal: React.FC<ProjectorModalProps> = ({
   };
 
   return (
-    <div className="fixed inset-0 z-50 bg-black/90 backdrop-blur-lg flex items-center justify-center p-2 sm:p-4 md:p-6 overflow-y-auto">
-      <div
-        className={`bg-[#142018] border-2 border-[#C08A2E] text-[#F6F2E4] rounded-[12px] w-full shadow-2xl overflow-hidden transition-all animate-fadeIn ${
-          isFullscreen ? 'fixed inset-2 sm:inset-4 max-w-none h-[calc(100vh-2rem)] flex flex-col' : 'max-w-5xl'
-        }`}
-      >
+    <div className="fixed inset-0 z-50 bg-black/90 backdrop-blur-lg overflow-y-auto overflow-x-hidden"> <div className="min-h-full flex items-start sm:items-center justify-center p-2 sm:p-4 md:p-6"> <div className={`bg-[#142018] border-2 border-[#C08A2E] text-[#F6F2E4] rounded-[12px] w-full shadow-2xl overflow-hidden transition-all animate-fadeIn my-4 sm:my-0 ${ isFullscreen ? 'fixed inset-2 sm:inset-4 max-w-none h-[calc(100vh-2rem)] flex flex-col' : 'max-w-5xl' }`} >
         {/* Projector Header Bar */}
         <div className="bg-[#1E2E23] px-4 sm:px-6 py-3.5 border-b border-[#2C4E3B] flex items-center justify-between gap-4">
           <div className="flex items-center gap-3">
@@ -243,8 +238,9 @@ export const ProjectorModal: React.FC<ProjectorModalProps> = ({
           >
             Tutup Tampilan Proyektor
           </button>
-        </div>
-      </div>
-    </div>
-  );
+        </div> 
+    </div> 
+  </div> 
+</div> 
+); 
 };
