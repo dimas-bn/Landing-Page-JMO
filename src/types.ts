@@ -11,6 +11,10 @@ export interface PricingPlan {
   ctaLink: string;
   isPopular?: boolean;
   highlightNote?: string;
+  bonusLink?: {
+    label: string;
+    url: string;
+  };
 }
 
 export interface StudentItem {
