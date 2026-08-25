@@ -7,13 +7,13 @@ export const TimeSavingsCalculator: React.FC = () => {
 
   // Math:
   // Paper approach:
-  // - Writing journal: 3 min per session * (hours / 2 sessions per day) = ~36 mins/week
-  // - Monthly recap calculation: ~25 mins per class per month = 125 mins/month
-  // JMO approach:
-  // - Writing journal: ~30 seconds = ~6 mins/week
-  // - Monthly recap: 0 seconds (instant 1-click)
-  // Total saved per month: ~ (30 mins * 4) + (25 mins * classCount) = 120 + 25*classCount mins
-  const minutesSavedPerMonth = 120 + classCount * 25;
+  // - Writing journal manually: ~3.5 minutes per JP session on paper vs ~1 minute digital
+  //   => saves ~2.5 minutes per JP session, scaled by weeks/month (~4.3)
+  // - Monthly recap calculation: ~25 mins per class per month manually vs instant 1-click digital
+  // Total saved per month: (hoursPerWeek * 2.5 min/session * 4.3 weeks) + (classCount * 25 mins)
+  const minutesSavedFromJournal = hoursPerWeek * 2.5 * 4.3;
+  const minutesSavedFromRecap = classCount * 25;
+  const minutesSavedPerMonth = minutesSavedFromJournal + minutesSavedFromRecap;
   const hoursSavedPerMonth = (minutesSavedPerMonth / 60).toFixed(1);
   const hoursSavedPerSemester = (Number(hoursSavedPerMonth) * 6).toFixed(0);
 

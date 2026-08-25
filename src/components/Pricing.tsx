@@ -83,7 +83,14 @@ export const Pricing: React.FC = () => {
                   ) : (
                     <span className="text-xs text-transparent block select-none">-</span>
                   )}
-                 <div className="flex flex-wrap items-baseline gap-x-1.5 gap-y-0.5 mt-0.5 min-w-0"> <span className="font-serif-heading font-bold text-3xl sm:text-4xl text-[#1E2B22] tracking-tight"> {plan.price} </span> <span className="text-xs sm:text-[13px] text-[#6E6252] font-medium break-words"> {plan.period} </span> </div>
+                  <div className="flex flex-wrap items-baseline gap-x-1.5 gap-y-0.5 mt-0.5 min-w-0">
+                    <span className="font-serif-heading font-bold text-3xl sm:text-4xl text-[#1E2B22] tracking-tight">
+                      {plan.price}
+                    </span>
+                    <span className="text-xs sm:text-[13px] text-[#6E6252] font-medium break-words">
+                      {plan.period}
+                    </span>
+                  </div>
                   {plan.highlightNote && (
                     <span className="text-[11.5px] font-bold text-[#8A6717] block mt-1.5">
                       ✓ {plan.highlightNote}
@@ -104,6 +111,21 @@ export const Pricing: React.FC = () => {
                       <span>{feat}</span>
                     </div>
                   ))}
+                  {plan.bonusLink && (
+                    <a
+                      href={plan.bonusLink.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-start gap-2.5 text-xs sm:text-[13px] font-semibold text-[#8A6717] leading-snug group/bonus"
+                    >
+                      <div className="w-4 h-4 rounded-full bg-[#F3E6C4] text-[#C08A2E] flex items-center justify-center shrink-0 mt-0.5">
+                        <Star className="w-3 h-3 fill-[#C08A2E] stroke-[#C08A2E]" />
+                      </div>
+                      <span className="underline decoration-[#C08A2E]/40 underline-offset-4 group-hover/bonus:text-[#a3820f]">
+                        {plan.bonusLink.label}
+                      </span>
+                    </a>
+                  )}
                 </div>
               </div>
 
@@ -126,10 +148,10 @@ export const Pricing: React.FC = () => {
                 </a>
                 <p className="text-[10.5px] text-center text-[#7C6F5E] mt-2">
                   {plan.id === 'trial'
-                    ? 'Tanpa kartu kredit · Langsung pakai'
+                    ? 'Coba dulu, gratis · Langsung pakai'
                     : isLifetime
                     ? 'Sekali bayar · Tanpa tagihan berulang'
-                    : 'Aktivasi otomatis & instan'}
+                    : 'Aktivasi maksimal 1x24 jam via Telegram'}
                 </p>
               </div>
             </div>
@@ -155,8 +177,8 @@ export const Pricing: React.FC = () => {
               <Zap className="w-5 h-5" />
             </div>
             <div className="text-left">
-              <div className="font-bold text-[#F6F2E4]">Akun Langsung Aktif</div>
-              <div className="text-[11.5px] text-[#A8BEAF]">Sistem otomatis memverifikasi dalam 30 detik</div>
+              <div className="font-bold text-[#F6F2E4]">Aktivasi Cepat via Telegram</div>
+              <div className="text-[11.5px] text-[#A8BEAF]">Kirim bukti bayar, aktif maksimal 1x24 jam</div>
             </div>
           </div>
 
@@ -166,7 +188,7 @@ export const Pricing: React.FC = () => {
             </div>
             <div className="text-left">
               <div className="font-bold text-[#F6F2E4]">Dukungan Penuh Pengembang</div>
-              <div className="text-[11.5px] text-[#A8BEAF]">Konsultasi & panduan setup di grup Telegram</div>
+              <div className="text-[11.5px] text-[#A8BEAF]">Tanya jawab & bantuan langsung di Grup Telegram</div>
             </div>
           </div>
         </div>
@@ -183,4 +205,20 @@ export const Pricing: React.FC = () => {
             <ArrowRight className="w-3 h-3" />
           </a>
         </div>
-      </div> {/* Natural bridge to full pricing detail page */} <p className="text-center text-[#C9D6CC] text-sm mt-10"> Ingin lihat rincian lengkap tiap paket beserta perbandingannya?{' '} <a href="https://www.dimasbn.my.id/p/paket-harga-jmo.html" target="_blank" rel="noopener noreferrer" className="text-[#C08A2E] font-semibold underline decoration-[#C08A2E]/40 underline-offset-4 hover:text-[#d49933] transition-colors" > Lihat halaman paket harga lengkap → </a> </p> </section> ); };
+      </div>
+
+      {/* Natural bridge to full pricing detail page */}
+      <p className="text-center text-[#C9D6CC] text-sm mt-10">
+        Ingin lihat rincian lengkap tiap paket beserta perbandingannya?{' '}
+        <a
+          href="https://www.dimasbn.my.id/p/paket-harga-jmo.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C08A2E] font-semibold underline decoration-[#C08A2E]/40 underline-offset-4 hover:text-[#d49933] transition-colors"
+        >
+          Lihat halaman paket harga lengkap →
+        </a>
+      </p>
+    </section>
+  );
+};
