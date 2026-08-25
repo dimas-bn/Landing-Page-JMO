@@ -76,6 +76,15 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenProjectorDemo }) => {
           </a>
 
           <a
+            href="https://member.jurnalmengajar.web.id/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-2.5 lg:px-3 py-2 text-xs font-semibold text-[#CFE0D3] hover:text-white transition-colors shrink-0 whitespace-nowrap"
+          >
+            Masuk
+          </a>
+
+          <a
             href="#harga"
             className="px-3.5 lg:px-4 py-2 text-xs font-bold tracking-wide rounded-[5px] bg-[#C08A2E] hover:bg-[#d69c36] text-[#1E2B22] shadow-sm transition-all flex items-center gap-1.5 cursor-pointer whitespace-nowrap font-sans shrink-0"
           >
@@ -149,6 +158,15 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenProjectorDemo }) => {
               <MonitorPlay className="w-4 h-4 text-[#C08A2E]" />
               <span>Buka Demo Papan Poin Proyektor</span>
             </button>
+            <a
+              href="https://member.jurnalmengajar.web.id/"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setMobileMenuOpen(false)}
+              className="w-full py-2.5 px-3 text-center text-xs font-semibold rounded-[5px] text-[#CFE0D3] border border-[#3E6B52] flex items-center justify-center gap-2"
+            >
+              Sudah Punya Akun? Masuk
+            </a>
             <a
               href="#harga"
               onClick={() => setMobileMenuOpen(false)}

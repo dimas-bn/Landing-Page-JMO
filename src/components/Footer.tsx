@@ -68,6 +68,16 @@ export const Footer: React.FC = () => {
                   Tanya Jawab (FAQ)
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://member.jurnalmengajar.web.id/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors"
+                >
+                  Masuk ke Akun Saya
+                </a>
+              </li>
             </ul>
           </div>
 
