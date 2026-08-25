@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
-import { Menu, X, ArrowRight, Sparkles, Send, MonitorPlay } from 'lucide-react';
+import { Menu, X, ArrowRight, Sparkles, Send } from 'lucide-react';
 import { JmoLogo } from './JmoLogo';
 
 interface NavbarProps {
-  onOpenProjectorDemo: () => void;
+  onOpenProjectorDemo?: () => void;
 }
 
-export const Navbar: React.FC<NavbarProps> = ({ onOpenProjectorDemo }) => {
+export const Navbar: React.FC<NavbarProps> = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 bg-[#1E2B22]/95 backdrop-blur-md border-b border-[#2C4E3B] text-[#F6F2E4] transition-all">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 h-16 sm:h-20 flex items-center gap-4">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 h-16 sm:h-20 flex items-center justify-between gap-4">
         {/* Brand Logo & Title */}
         <a href="#" className="flex items-center gap-3 shrink-0 group">
           <JmoLogo size={42} withGlow className="transition-transform group-hover:scale-105 shrink-0" />
@@ -31,7 +31,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenProjectorDemo }) => {
         </a>
 
         {/* Desktop / Tablet Nav Links */}
-        <nav className="hidden md:flex flex-1 items-center justify-center gap-3.5 lg:gap-5 xl:gap-7 text-xs lg:text-[13.5px] font-medium text-[#CFE0D3] whitespace-nowrap">
+        <nav className="hidden md:flex items-center gap-3.5 lg:gap-5 xl:gap-7 text-xs lg:text-[13.5px] font-medium text-[#CFE0D3] whitespace-nowrap">
           <a href="#fitur" className="hover:text-white transition-colors py-1">
             Fitur Utama
           </a>
@@ -53,18 +53,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenProjectorDemo }) => {
           </a>
         </nav>
 
-        {/* Right Action Buttons */}
+        {/* Right Action Buttons (Desktop) */}
         <div className="hidden md:flex items-center gap-3 lg:gap-3.5 shrink-0">
-          <button
-            type="button"
-            onClick={onOpenProjectorDemo}
-            className="px-2.5 lg:px-3.5 py-2 text-xs font-semibold rounded-[5px] bg-[#2C4E3B] hover:bg-[#3E6B52] text-[#F6F2E4] border border-[#3E6B52] transition-colors flex items-center gap-1.5 cursor-pointer whitespace-nowrap shadow-sm"
-          >
-            <MonitorPlay className="w-3.5 h-3.5 text-[#C08A2E]" />
-            <span className="hidden lg:inline">Papan Poin Proyektor</span>
-            <span className="lg:hidden">Proyektor</span>
-          </button>
-
           <a
             href="https://t.me/+2uZH5Az4p600Nzll"
             target="_blank"
@@ -95,11 +85,11 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenProjectorDemo }) => {
           </a>
         </div>
 
-        {/* Mobile Hamburger Button */}
+        {/* Mobile Hamburger Button - Aligned to Right */}
         <button
           type="button"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="md:hidden p-2 rounded-md text-[#CFE0D3] hover:text-white hover:bg-[#2C4E3B] transition-colors cursor-pointer shrink-0"
+          className="md:hidden ml-auto p-2 rounded-md text-[#CFE0D3] hover:text-white hover:bg-[#2C4E3B] transition-colors cursor-pointer shrink-0"
           aria-label="Toggle Menu"
         >
           {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -149,17 +139,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenProjectorDemo }) => {
           </nav>
 
           <div className="pt-3 border-t border-[#2C4E3B] flex flex-col gap-2.5">
-            <button
-              type="button"
-              onClick={() => {
-                setMobileMenuOpen(false);
-                onOpenProjectorDemo();
-              }}
-              className="w-full py-2.5 px-3 text-center text-xs font-semibold rounded-[5px] bg-[#2C4E3B] text-white border border-[#3E6B52] flex items-center justify-center gap-2 cursor-pointer"
-            >
-              <MonitorPlay className="w-4 h-4 text-[#C08A2E]" />
-              <span>Buka Demo Papan Poin Proyektor</span>
-            </button>
             <a
               href="https://member.jurnalmengajar.web.id/"
               target="_blank"
