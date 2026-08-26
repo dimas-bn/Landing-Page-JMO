@@ -42,7 +42,7 @@ export const PRICING_PLANS: PricingPlan[] = [
   {
     id: 'tahunan',
     name: 'Paket Tahunan',
-    badge: '★ Paling Hemat & Favorit Guru',
+    badge: 'Paling Hemat & Favorit Guru',
     price: 'Rp90.000',
     originalPrice: 'Rp120.000',
     period: '/ tahun (12 bulan)',
