@@ -16,12 +16,12 @@ export const Footer: React.FC = () => {
             <div className="flex items-center gap-3">
               <JmoLogo size={38} withGlow />
               <span className="font-serif-heading font-semibold italic text-xl text-[#F6F2E4]">
-                Jurnal Mengajar Online
+                JMO — SaaS Administrasi Pembelajaran untuk Guru
               </span>
             </div>
 
             <p className="text-xs sm:text-sm text-[#A2B3A7] leading-relaxed max-w-md">
-              Aplikasi pencatatan jurnal mengajar harian guru, presensi siswa, sistem poin keaktifan, dan rekap otomatis dengan estetika buku catatan klasik bergaris dan kenyamanan cloud modern.
+              Aplikasi berbasis cloud untuk pencatatan jurnal mengajar harian, presensi siswa, sistem poin keaktifan, dan rekap data pembelajaran — dengan estetika buku catatan klasik bergaris dan kenyamanan teknologi cloud modern.
             </p>
 
             <div className="flex items-center gap-3 pt-2">
@@ -32,7 +32,7 @@ export const Footer: React.FC = () => {
                 className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-[5px] bg-[#2C4E3B] hover:bg-[#3E6B52] text-xs font-semibold text-white transition-colors"
               >
                 <Send className="w-3.5 h-3.5 text-[#4ea075]" />
-                <span>Grup Telegram Guru JMO</span>
+                <span>Grup Telegram JMO</span>
               </a>
             </div>
           </div>
