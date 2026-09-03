@@ -16,12 +16,12 @@ export const Footer: React.FC = () => {
             <div className="flex items-center gap-3">
               <JmoLogo size={38} withGlow />
               <span className="font-serif-heading font-semibold italic text-xl text-[#F6F2E4]">
-                JMO — SaaS Administrasi Pembelajaran untuk Guru
+                SaaS Administrasi Pembelajaran untuk Guru
               </span>
             </div>
 
             <p className="text-xs sm:text-sm text-[#A2B3A7] leading-relaxed max-w-md">
-              Aplikasi berbasis cloud untuk pencatatan jurnal mengajar harian, presensi siswa, sistem poin keaktifan, dan rekap data pembelajaran — dengan estetika buku catatan klasik bergaris dan kenyamanan teknologi cloud modern.
+              Aplikasi Berbasis Cloud (Software as a Service) untuk pencatatan jurnal mengajar harian, presensi siswa, sistem poin keaktifan, dan rekap data pembelajaran — dengan estetika buku catatan klasik bergaris dan kenyamanan teknologi cloud modern.
             </p>
 
             <div className="flex items-center gap-3 pt-2">
