@@ -27,7 +27,7 @@ export const Features: React.FC = () => {
       <div className="text-center max-w-2xl mx-auto mb-14">
         <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#2C4E3B] text-[#C08A2E] text-xs font-semibold uppercase tracking-wider mb-3 border border-[#3E6B52]">
           <Sparkles className="w-3.5 h-3.5" />
-          <span>Dibuat dari Masalah Nyata yang Dialami Guru</span>
+          <span>Dibuat dari Masalah yang Dialami Guru</span>
         </div>
         <h2 className="font-serif-heading text-2xl sm:text-3xl md:text-4xl font-semibold italic text-[#F6F2E4] mb-3">
           Administrasi KBM, Jauh Lebih Praktis dengan JMO
