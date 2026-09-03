@@ -39,9 +39,11 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProjectorDemo }) => {
         <div className="flex justify-center mb-5">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#2C4E3B]/90 border border-[#3E6B52] text-[#CFE0D3] text-xs font-medium tracking-wide shadow-md">
             <JmoLogo size={20} />
-            <span className="font-serif-heading italic text-[#F6F2E4] font-medium">Buku Jurnal Guru Klasik</span>
-            <span className="text-[#3E6B52]">✕</span>
-            <span>Web App Modern</span>
+              <span className="font-serif-heading italic text-[#F6F2E4] font-medium">
+                Jurnal Guru Klasik
+              </span>
+              <span className="text-[#3E6B52]">✕</span>
+              <span>Kemudahan Cloud Modern</span>
           </div>
         </div>
 
