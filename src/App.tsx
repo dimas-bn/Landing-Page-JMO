@@ -85,7 +85,7 @@ export default function App() {
           href="#harga"
           className="flex-1 py-2.5 px-3 bg-[#C08A2E] text-[#1E2B22] text-xs font-bold rounded-[5px] text-center shadow-sm flex items-center justify-center gap-1"
         >
-          <span>Trial 7 Hari Gratis</span>
+          <span>Coba 7 Hari Gratis</span>
           <ArrowRight className="w-3.5 h-3.5" />
         </a>
       </div>
