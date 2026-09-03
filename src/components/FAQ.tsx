@@ -21,7 +21,7 @@ export const FAQ: React.FC = () => {
           Tanya Jawab Seputar JMO
         </h2>
         <p className="text-[#C9D6CC] text-sm sm:text-base">
-          Temukan jawaban cepat atas pertanyaan yang sering diajukan rekan guru mengenai penggunaan dan fitur JMO.
+          Temukan jawaban cepat dari pertanyaan yang sering diajukan rekan guru mengenai penggunaan dan fitur JMO.
         </p>
       </div>
 
