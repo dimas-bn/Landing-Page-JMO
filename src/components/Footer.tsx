@@ -16,7 +16,7 @@ export const Footer: React.FC = () => {
             <div className="flex items-center gap-3">
               <JmoLogo size={38} withGlow />
               <span className="font-serif-heading font-semibold italic text-xl text-[#F6F2E4]">
-                SaaS Administrasi Pembelajaran untuk Guru
+                SaaS — Administrasi Pembelajaran untuk Guru
               </span>
             </div>
 
