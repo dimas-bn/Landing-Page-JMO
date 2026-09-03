@@ -23,7 +23,7 @@ export default function App() {
           Versi Terbaru
         </span>
         <span>
-          JMO kini dilengkapi fitur <strong>🚀 Papan Poin Live</strong> & <strong>⚡ Sistem yang sat-set, no ribet,<em> AI Coded</em></strong>
+          JMO kini hadir dengan 🚀 <strong>Papan Poin Live</strong> dan sistem ⚡ <strong>cepat, sederhana, dan mudah digunakan</strong>
         </span>
         <a
           href="#demo-interaktif"
