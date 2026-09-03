@@ -16,7 +16,7 @@ export const Comparison: React.FC = () => {
             Buku Jurnal Kertas Biasa vs. JMO
           </h2>
           <p className="text-[#C9D6CC] text-sm sm:text-base">
-            Lihat bagaimana beralih ke JMO mengubah rutinitas administrasi guru dari yang melelahkan menjadi cepat dan otomatis.
+            Lihat perbedaannya. Dari mencatat dan merekap secara manual hingga mengelola jurnal pembelajaran dengan lebih cepat, rapi, dan praktis bersama JMO.
           </p>
         </div>
 
