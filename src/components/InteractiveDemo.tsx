@@ -532,7 +532,7 @@ export const InteractiveDemo: React.FC<InteractiveDemoProps> = ({ onOpenProjecto
                     </button>
                     <button
                       type="button"
-                      onClick={() => alert('Simulasi Export Excel: Data presensi dan poin 8 siswa berhasil diunduh dalam format .csv')}
+                      onClick={() => alert('Simulasi Export Excel: Data presensi dan poin 8 siswa berhasil diunduh dalam format .xlsx')}
                       className="px-3 py-1.5 text-xs font-semibold rounded-[5px] bg-white border border-[#B7C6CB] text-[#2C4E3B] hover:bg-[#F6F2E4] transition-colors flex items-center gap-1.5 cursor-pointer"
                     >
                       <FileSpreadsheet className="w-3.5 h-3.5 text-[#3E6B52]" />
