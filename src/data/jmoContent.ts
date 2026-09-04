@@ -142,13 +142,13 @@ export const FEATURE_HIGHLIGHTS: FeatureHighlight[] = [
   },
   {
     id: 'smart-setup',
-    title: 'Setup Kilat: Paste 40 Siswa Sekaligus',
+    title: 'Setup Kilat: Paste 36 Siswa Sekaligus',
     tagline: 'Hemat Waktu di Awal Semester',
     description: 'Tidak perlu mengetik nama siswa satu persatu. Cukup copy daftar nama dari Excel, Word, atau Dapodik, lalu paste di kotak input massal.',
     points: [
       'Otomatis mendeteksi nomor presensi & nama',
       'Setup kelas & mata pelajaran dalam hitungan detik',
-      'Jadwal mingguan otomatis terintegrasi ke form pengisian',
+      'Jadwal harian otomatis terintegrasi ke form pengisian',
       'Bebas tambah, edit, atau sesuaikan kapan saja'
     ],
     icon: 'Users',
@@ -156,14 +156,14 @@ export const FEATURE_HIGHLIGHTS: FeatureHighlight[] = [
   },
   {
     id: 'recap-print',
-    title: 'Rekap Bulanan Otomatis Siap Cetak & PDF',
-    tagline: 'Laporan Administrasi Jadi 1 Detik',
+    title: 'Rekap Bulanan Otomatis Siap Cetak',
+    tagline: 'Laporan Administrasi Siap dalam 10 Detik',
     description: 'Lupakan kalkulator untuk menghitung persentase kehadiran bulanan. JMO menghitung jumlah H/I/S/D/A, % kehadiran, dan rata-rata poin secara otomatis.',
     points: [
       'Tabel rekap rapi berstandar administrasi sekolah',
       'Tombol Cetak langsung yang diformat rapi untuk kertas A4 / F4',
       'Simpan langsung sebagai file PDF',
-      'Export semua data ke format CSV / Excel sebagai backup'
+      'Export semua data ke format Excel sebagai backup'
     ],
     icon: 'Printer',
     badge: 'Laporan Otomatis'
@@ -260,7 +260,7 @@ export const FAQS: FAQItem[] = [
     id: 'faq-5',
     category: 'teknis',
     question: 'Apakah data jurnal saya bisa diekspor ke Excel untuk arsip?',
-    answer: 'Bisa! Di tab Riwayat terdapat tombol "📥 Export Semua Data (Excel / CSV)". File cadangan akan langsung terunduh berisi seluruh riwayat tanggal, kelas, materi, presensi, keterangan, dan perolehan poin siswa.'
+    answer: 'Bisa! Di tab Riwayat terdapat tombol "📥 Export Semua Data (Excel)". File cadangan akan langsung terunduh berisi seluruh riwayat tanggal, kelas, materi, presensi, keterangan, dan perolehan poin siswa.'
   },
   {
     id: 'faq-6',
@@ -298,13 +298,13 @@ export const COMPARISON_DATA = [
   {
     category: 'Portabilitas & Aksesibilitas',
     paper: 'Buku tebal rawan tertinggal, robek, basah, atau terselip di rumah',
-    jmo: 'Aman di cloud, bisa diakses dari HP di saku kapan saja di mana saja',
+    jmo: 'Aman di cloud, bisa diakses dari HP di saku, kapan saja, di mana saja',
     isWinner: true
   },
   {
     category: 'Laporan & Akreditasi',
     paper: 'Cari berkas fisik berlembar-lembar, sering ada halaman hilang',
-    jmo: 'Bisa langsung Cetak PDF rapi atau Ekspor seluruh data ke Excel / CSV',
+    jmo: 'Bisa langsung Cetak PDF rapi atau Ekspor seluruh data ke Excel',
     isWinner: true
   },
   {
