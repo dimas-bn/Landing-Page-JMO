@@ -24,8 +24,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
                 Online
               </span>
             </div>
-            <p className="text-[11px] text-[#A8BEAF] hidden xl:block tracking-normal font-sans">
-              Buku Jurnal Guru Klasik · Web App Modern
+            <p className="text-[11px] text-[#A8BEAF] hidden xl:block tracking-normal font-sans"> Jurnal Guru Klasik · Kemudahan Cloud Modern
             </p>
           </div>
         </a>
@@ -146,7 +145,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
               onClick={() => setMobileMenuOpen(false)}
               className="w-full py-2.5 px-3 text-center text-xs font-semibold rounded-[5px] text-[#CFE0D3] border border-[#3E6B52] flex items-center justify-center gap-2"
             >
-              Sudah Punya Akun? Masuk
+              Sudah Punya Akun? <strong>Masuk</strong>
             </a>
             <a
               href="#harga"
