@@ -15,8 +15,8 @@ export const ProjectorModal: React.FC<ProjectorModalProps> = ({
   isOpen,
   onClose,
   students = INITIAL_STUDENTS_DEMO,
-  classNameTitle = 'Kelas X IPA 1',
-  subjectTitle = 'Matematika Wajib',
+  classNameTitle = 'Kelas XII 7',
+  subjectTitle = 'Informatika',
 }) => {
   const [isFullscreen, setIsFullscreen] = useState(false);
 
@@ -82,7 +82,7 @@ export const ProjectorModal: React.FC<ProjectorModalProps> = ({
           <div className="flex items-center gap-2 font-medium">
             <Sparkles className="w-4 h-4 text-[#C08A2E] shrink-0" />
             <span>
-              <strong>Tampilan Khusus Layar Proyektor Kelas</strong>: Disorotkan ke dinding/TV untuk memotivasi siswa. Seluruh penambahan poin & presensi diatur oleh guru dari <em>Dashboard Guru</em>.
+              <strong>Tampilan Khusus Layar Proyektor Kelas</strong>: Disorotkan ke dinding/TV, atau kirim ke grup WA, untuk memotivasi siswa. Seluruh penambahan poin & presensi diatur oleh guru dari <em>Dashboard Guru</em>.
             </span>
           </div>
           <div className="flex items-center gap-1.5 text-[11px] text-[#C08A2E] font-semibold">
@@ -229,7 +229,7 @@ export const ProjectorModal: React.FC<ProjectorModalProps> = ({
         <div className="p-3.5 bg-[#1E2E23] border-t border-[#2C4E3B] flex flex-wrap items-center justify-between text-xs text-[#CFE0D3] gap-3">
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-[#4ea075]" />
-            <span>Mata Pelajaran: <strong>{subjectTitle}</strong> · 100% Aman dibagikan di proyektor kelas tanpa login siswa.</span>
+            <span>Mata Pelajaran: <strong>{subjectTitle}</strong> · 100% Aman dibagikan ke kelas tanpa login siswa.</span>
           </div>
           <button
             type="button"
