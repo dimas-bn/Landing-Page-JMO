@@ -100,9 +100,9 @@ export const INITIAL_STUDENTS_DEMO: StudentItem[] = [
 export const FEATURE_HIGHLIGHTS: FeatureHighlight[] = [
   {
     id: 'speed-entry',
-    title: 'Isi Jurnal Cepat Kurang dari 1 Menit',
-    tagline: 'Tanpa Mengetik Berulang Kali',
-    description: 'Pilih kelas, tanggal, dan jam ke- secara otomatis dari jadwal harian. Ada tombol "Salin dari jurnal terakhir" untuk kelas paralel atau materi lanjutan.',
+    title: 'Isi Jurnal Cepat, Kurang dari 2 Menit',
+    tagline: 'Tanpa Bawa Buku Jurnal Tradisional',
+    description: 'Pilih kelas, dan jam ke-, (yang sudah di-setup sebelumnya) secara otomatis. Ada tombol "Salin dari jurnal terakhir" untuk kelas paralel atau materi lanjutan.',
     points: [
       'Saran jadwal otomatis sesuai hari KBM berjalan',
       'Jam ke- fleksibel (misal jam 1-3 atau 7-8)',
@@ -110,16 +110,16 @@ export const FEATURE_HIGHLIGHTS: FeatureHighlight[] = [
       'Tombol 📋 Salin Materi & ⤢ Perbesar kotak catatan'
     ],
     icon: 'BookOpen',
-    badge: 'KBM Harian'
+    badge: 'Isi KBM Harian'
   },
   {
     id: 'attendance-points',
     title: 'Presensi Siswa + Sistem Poin Keaktifan',
     tagline: '5 Status Kehadiran & Gamifikasi Kelas',
-    description: 'Tandai Hadir, Izin, Sakit, Dispensasi, atau Alpa dengan 1 ketukan. Lengkap dengan sistem penilaian poin (0 hingga 7) untuk mengapresiasi siswa aktif.',
+    description: 'Tandai Hadir, Izin, Sakit, Dispensasi, atau Alpa dengan 1 klik. Lengkap dengan sistem penilaian poin (0 hingga 7) untuk mengapresiasi siswa aktif.',
     points: [
       'Pilihan warna jelas: Hijau, Emas, Bata, Slate, Merah',
-      'Kotak keterangan otomatis muncul jika siswa izin/sakit',
+      'Kotak keterangan otomatis muncul jika siswa izin/sakit/dispensasi/alpa',
       'Stepper poin interaktif untuk apresiasi keaktifan siswa di kelas',
       'Default poin 3, dapat dinaikkan atau diturunkan seketika'
     ],
@@ -128,17 +128,17 @@ export const FEATURE_HIGHLIGHTS: FeatureHighlight[] = [
   },
   {
     id: 'projector-scoreboard',
-    title: 'Papan Poin Live untuk Proyektor Kelas',
+    title: 'Papan Poin Live untuk Indikator Kelas',
     tagline: 'Bikin Suasana Kelas Kompetitif & Menyenangkan',
-    description: 'Setiap kelas memiliki link publik Papan Poin khusus — bisa dibuka di layar proyektor atau smart TV depan kelas untuk ditonton bersama, atau langsung dari HP masing-masing siswa maupun guru. Nilai dan ranking otomatis terupdate seketika.',
+    description: 'Setiap kelas memiliki link publik Papan Poin khusus — bisa dibuka di layar Proyektor atau Smart TV depan kelas untuk ditonton bersama, atau langsung dari HP masing-masing siswa maupun guru. Nilai dan ranking otomatis terupdate seketika.',
     points: [
       'Bisa dibuka bersamaan di proyektor, smart TV, maupun HP siswa & guru',
       'Tanpa perlu siswa menginstall aplikasi atau login',
-      'Peringkat otomatis terurut dari yang teraktif',
-      'Meningkatkan partisipasi belajar dan disiplin kelas'
+      'Peringkat otomatis terurut dari yang teraktif atau tertinggi',
+      'Memantau dan Meningkatkan partisipasi belajar dan disiplin kelas'
     ],
     icon: 'Trophy',
-    badge: 'Fitur Unggulan'
+    badge: 'Fitur Pembeda'
   },
   {
     id: 'smart-setup',
