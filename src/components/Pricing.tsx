@@ -209,14 +209,14 @@ export const Pricing: React.FC = () => {
 
       {/* Natural bridge to full pricing detail page */}
       <p className="text-center text-[#C9D6CC] text-sm mt-10">
-        Ingin lihat rincian lengkap tiap paket beserta perbandingannya?{' '}
+        Ingin mengetahui awal mula aplikasi ini dibuat?{' '}
         <a
           href="https://www.dimasbn.my.id/p/paket-harga-jmo.html"
           target="_blank"
           rel="noopener noreferrer"
           className="text-[#C08A2E] font-semibold underline decoration-[#C08A2E]/40 underline-offset-4 hover:text-[#d49933] transition-colors"
         >
-          Lihat halaman paket harga lengkap →
+          Lihat halaman JMO versi awal / GRATIS →
         </a>
       </p>
     </section>
