@@ -196,12 +196,12 @@ export const Pricing: React.FC = () => {
         <div className="pt-4 border-t border-[#2C4E3B] text-xs text-[#A8BEAF] flex flex-wrap items-center justify-center gap-2">
           <span>Butuh pengadaan akun sekolah kolektif atau ada pertanyaan sebelum membeli?</span>
           <a
-            href="https://t.me/+2uZH5Az4p600Nzll"
+            href="https://wa.me/6285641051211"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#C08A2E] hover:text-[#d69c36] font-bold underline inline-flex items-center gap-1"
           >
-            <span>Hubungi Komunitas Guru JMO di Telegram</span>
+            <span>Hubungi langsung Pengembang di WhatsApp</span>
             <ArrowRight className="w-3 h-3" />
           </a>
         </div>
