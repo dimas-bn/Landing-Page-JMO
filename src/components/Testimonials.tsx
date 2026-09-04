@@ -16,7 +16,7 @@ export const Testimonials: React.FC = () => {
             Dipercaya Guru dari Berbagai Penjuru Indonesia
           </h2>
           <p className="text-[#C9D6CC] text-sm sm:text-base">
-            Cerita bagaimana JMO membantu guru SD, SMP, SMA, dan SMK menyederhanakan administrasi harian mereka.
+            Cerita bagaimana JMO membantu guru SD, MI, SMP, MTs, SMA, MA, SMK, dan MAK, menyederhanakan administrasi harian mereka.
           </p>
         </div>
 
@@ -73,7 +73,7 @@ export const Testimonials: React.FC = () => {
                 Gabung Komunitas Guru Pengguna JMO
               </h3>
               <p className="text-xs sm:text-sm text-[#CFE0D3] max-w-xl">
-                Dapatkan tips mengajar, update fitur versi terbaru, panduan video, dan diskusi langsung dengan sesama guru di grup Telegram kami.
+                Dapatkan update fitur versi terbaru dan diskusi langsung dengan sesama guru di grup Telegram kami.
               </p>
             </div>
           </div>
@@ -85,7 +85,7 @@ export const Testimonials: React.FC = () => {
             className="w-full md:w-auto px-6 py-3 rounded-[6px] bg-[#C08A2E] hover:bg-[#d69c36] text-[#1E2B22] font-bold text-xs sm:text-sm flex items-center justify-center gap-2 shrink-0 transition-colors shadow-md cursor-pointer"
           >
             <Send className="w-4 h-4" />
-            <span>Gabung Grup Telegram</span>
+            <span>Gabung Grup Telegram JMO</span>
           </a>
         </div>
       </div>
