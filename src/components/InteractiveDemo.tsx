@@ -68,7 +68,7 @@ export const InteractiveDemo: React.FC<InteractiveDemoProps> = ({ onOpenProjecto
   // Save Simulation
   const handleSaveJournal = () => {
     setSavedNotification(
-      `✓ Tersimpan — Jurnal KBM ${selectedClass} (Jam ke-${periodFrom}-${periodTo}) & absensi ${students.length} siswa berhasil dicatat ke cloud!`
+      `✓ Tersimpan — Jurnal KBM ${selectedClass} (Jam ke-${periodFrom}-${periodTo}) & presensi ${students.length} siswa berhasil dicatat ke Cloud!`
     );
     setTimeout(() => {
       setSavedNotification(null);
@@ -164,7 +164,7 @@ export const InteractiveDemo: React.FC<InteractiveDemoProps> = ({ onOpenProjecto
                 <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#D8CDB0] pb-3 mb-5">
                   <div>
                     <span className="text-[11px] font-bold text-[#6E6252] uppercase tracking-wider">
-                      Jurnal Mengajar Harian
+                      Jurnal Mengajar Online
                     </span>
                     <h3 className="font-serif-heading text-lg sm:text-xl font-bold italic text-[#2C4E3B]">
                       Senin, 24 Agustus 2026
