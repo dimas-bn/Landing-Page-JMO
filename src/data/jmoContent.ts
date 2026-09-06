@@ -274,7 +274,7 @@ export const FAQS: FAQItem[] = [
     id: 'faq-7',
     category: 'pembelian',
     question: 'Apa perbedaan Paket Tahunan dan Lifetime?',
-    answer: 'Paket Tahunan berlaku selama 1 tahun ajaran (365 hari) seharga Rp90.000 (hanya Rp7.500/bulan). Sedangkan Paket Lifetime seharga Rp195.000 adalah pembayaran satu kali untuk akses selamanya tanpa biaya perpanjangan sama sekali.'
+    answer: 'Paket Tahunan berlaku selama 1 tahun ajaran (365 hari) seharga Rp150.000 (hanya Rp12.500/bulan). Sedangkan Paket Lifetime seharga Rp365.000 adalah pembayaran satu kali untuk akses selamanya tanpa biaya perpanjangan sama sekali.'
   }
 ];
 
