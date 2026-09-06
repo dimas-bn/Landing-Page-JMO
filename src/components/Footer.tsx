@@ -37,7 +37,7 @@ export const Footer: React.FC = () => {
               <a href="https://web.mayar.id/sign-in/referral/zdfH4jR"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-[5px] bg-[#F3C6D6] hover:bg-[#eeb3c8] text-xs font-semibold text-[#7A2E45] transition-colors">
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-[5px] bg-[#3D5FAC] hover:bg-[#678bdc] text-xs font-semibold text-white transition-colors">
               <span>🤝</span>
               <span>Program Partner JMO</span>
               </a>
