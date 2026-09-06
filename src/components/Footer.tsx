@@ -159,7 +159,7 @@ export const Footer: React.FC = () => {
             <img
              src="/avatar-dimas.png"
              alt="Dimas BN"
-             className="w-9 h-9 rounded-full inline-block align-baseline mx-1"
+             className="w-9 h-9 rounded-full inline-block align-middle mx-1"
              /> 
               Dimas BN
             </a>
