@@ -266,7 +266,7 @@ export const FAQS: FAQItem[] = [
     id: 'faq-6',
     category: 'pembelian',
     question: 'Bagaimana metode pembayaran dan proses aktivasi akun?',
-    answer: 'Pembayaran dapat dilakukan dengan mudah melalui QRIS (GoPay, OVO, Dana, ShopeePay, BCA/Bank transfer) di platform dimasbn.myr.id. Setelah itu, daftar/login di member.jurnalmengajar.web.id dengan email yang sama dengan email pembayaran, lalu konfirmasi bukti bayar di Grup Telegram — akun Anda akan diaktifkan maksimal dalam 1x24 jam.'
+    answer: 'Pembayaran dapat dilakukan dengan mudah melalui QRIS (GoPay, OVO, Dana, ShopeePay, BCA/Bank transfer) di platform dimasbn.myr.id. Pastikan Anda sudah mendaftar akun di member.jurnalmengajar.web.id dan menggunakan EMAIL YANG SAMA saat membayar — akun Anda akan otomatis aktif dalam beberapa detik setelah pembayaran berhasil, tanpa perlu menunggu konfirmasi manual. Jika lebih dari 10 menit akun belum aktif, silakan hubungi kami di Grup Telegram resmi JMO.'
   },
   {
     id: 'faq-7',
