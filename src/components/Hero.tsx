@@ -253,7 +253,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProjectorDemo }) => {
             {/* Quick Live Preview Footer */}
             <div className="mt-4 pt-3 border-t border-[#D8CDB0] flex items-center justify-between text-xs text-[#6E6252]">
               <span className="italic">
-                ✓ Otomatis tersimpan ke Cloud Server Supabase
+                ✓ Otomatis tersimpan ke Cloud Database Server 
               </span>
               <button
                 onClick={onOpenProjectorDemo}
