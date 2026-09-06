@@ -151,7 +151,7 @@ export const Pricing: React.FC = () => {
                     ? 'Coba dulu, gratis · Langsung pakai'
                     : isLifetime
                     ? 'Sekali bayar · Tanpa tagihan berulang'
-                    : 'Aktivasi maksimal 1x24 jam via Telegram'}
+                    : 'Aktif otomatis dalam hitungan detik'}
                 </p>
               </div>
             </div>
@@ -177,8 +177,8 @@ export const Pricing: React.FC = () => {
               <Zap className="w-5 h-5" />
             </div>
             <div className="text-left">
-              <div className="font-bold text-[#F6F2E4]">Aktivasi Cepat via Telegram</div>
-              <div className="text-[11.5px] text-[#A8BEAF]">Kirim bukti bayar, aktif maksimal 1x24 jam</div>
+              <div className="font-bold text-[#F6F2E4]">Aktivasi Otomatis & Instan</div>
+              <div className="text-[11.5px] text-[#A8BEAF]">Bayar sekarang, akun langsung aktif dalam hitungan detik</div>
             </div>
           </div>
 
