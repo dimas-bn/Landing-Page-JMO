@@ -21,7 +21,6 @@ export const PRICING_PLANS: PricingPlan[] = [
     highlightNote: 'Daftar dulu, Langsung pakai',
   },
   {
-  {
     id: 'bulanan',
     name: 'Paket Bulanan',
     price: 'Rp15.000',
