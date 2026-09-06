@@ -21,9 +21,11 @@ export const PRICING_PLANS: PricingPlan[] = [
     highlightNote: 'Daftar dulu, Langsung pakai',
   },
   {
+  {
     id: 'bulanan',
     name: 'Paket Bulanan',
-    price: 'Rp10.000',
+    price: 'Rp15.000',
+    originalPrice: 'Rp30.000',
     period: '/ bulan',
     description: 'Sangat terjangkau dan fleksibel, cocok untuk guru yang ingin mencoba per bulan.',
     features: [
@@ -43,12 +45,12 @@ export const PRICING_PLANS: PricingPlan[] = [
     id: 'tahunan',
     name: 'Paket Tahunan',
     badge: 'Paling Hemat & Favorit Guru',
-    price: 'Rp90.000',
-    originalPrice: 'Rp120.000',
+    price: 'Rp150.000',
+    originalPrice: 'Rp300.000',
     period: '/ tahun (12 bulan)',
-    description: 'Hanya setara Rp7.500/bulan! Tenang Mengajar selama 1 Tahun Ajaran penuh.',
+    description: 'Hanya setara Rp12.500/bulan! Tenang Mengajar selama 1 Tahun Ajaran penuh.',
     features: [
-      'Hemat 25% dibanding Paket Bulanan',
+      'Hemat 17% dibanding Paket Bulanan',
       'Masa aktif 365 hari penuh, tanpa repot perpanjangan',
       'Fitur Papan Poin Live tanpa batas kelas',
       'Template rekap format standar sekolah',
@@ -64,7 +66,8 @@ export const PRICING_PLANS: PricingPlan[] = [
     id: 'lifetime',
     name: 'Paket Lifetime',
     badge: 'Sekali Bayar Selamanya',
-    price: 'Rp195.000',
+    price: 'Rp365.000',
+    originalPrice: 'Rp730.000',
     period: 'sekali bayar seumur hidup',
     description: 'Investasi Terbaik, untuk Karier Mengajar Anda, Selamanya Tanpa Langganan.',
     features: [
