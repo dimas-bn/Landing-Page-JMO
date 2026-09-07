@@ -28,12 +28,11 @@ export const Testimonials: React.FC = () => {
               className="notebook-page notebook-margin-line p-6 pl-12 sm:pl-16 rounded-[8px] border border-[#D8CDB0] shadow-md flex flex-col justify-between"
             >
               <div>
-                {/* Rating & Highlight */}
-                <div className="flex items-center gap-1 mb-2">
-                  {[...Array(t.rating)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-[#C08A2E] text-[#C08A2E]" />
-                  ))}
-                </div>
+               <Quote className="w-4 h-4 text-[#C08A2E] mb-2" />
+
+                <h4 className="font-serif-heading italic font-bold text-sm sm:text-base text-[#2C4E3B] mb-3">
+                  "{t.highlight}"
+                </h4>
 
                 <h4 className="font-serif-heading italic font-bold text-sm sm:text-base text-[#2C4E3B] mb-3">
                   "{t.highlight}"
@@ -48,10 +47,10 @@ export const Testimonials: React.FC = () => {
               <div className="border-t border-[#D8CDB0] pt-3.5 flex items-center justify-between">
                 <div>
                   <div className="font-semibold text-xs sm:text-sm text-[#1E2B22]">
-                    {t.name}
+                   {t.role}
                   </div>
                   <div className="text-[11px] text-[#6E6252]">
-                    {t.role} · {t.school}, {t.location}
+                   {t.location}
                   </div>
                 </div>
                 <div className="w-8 h-8 rounded-full bg-[#2C4E3B] text-[#F6F2E4] font-bold text-xs flex items-center justify-center border border-[#3E6B52]">
