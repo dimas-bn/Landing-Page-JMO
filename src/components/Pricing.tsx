@@ -211,12 +211,12 @@ export const Pricing: React.FC = () => {
       <p className="text-center text-[#C9D6CC] text-sm mt-10">
         Ingin mengetahui awal mula aplikasi ini dibuat?{' '}
         <a
-          href="https://www.dimasbn.my.id/p/paket-harga-jmo.html"
+          href="https://www.dimasbn.my.id/p/aplikasi-jurnal-mengajar-online-versi.html"
           target="_blank"
           rel="noopener noreferrer"
           className="text-[#C08A2E] font-semibold underline decoration-[#C08A2E]/40 underline-offset-4 hover:text-[#d49933] transition-colors"
         >
-          Lihat halaman JMO versi awal / GRATIS →
+          Lihat halaman JMO awal / GRATIS selamanya →
         </a>
       </p>
     </section>
