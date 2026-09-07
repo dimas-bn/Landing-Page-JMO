@@ -39,7 +39,7 @@ export const Footer: React.FC = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-[5px] bg-[#3D5FAC] hover:bg-[#678bdc] text-xs font-semibold text-white transition-colors">
               <span>👋</span>
-              <span>Website Dimas BN</span>
+              <span>Website <strong>dimasbn.my.id</strong></span>
               </a>
             </div>
           </div>
@@ -82,7 +82,7 @@ export const Footer: React.FC = () => {
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
                 >
-                  Masuk ke Akun Saya
+                  Masuk ke Akun JMO
                 </a>
               </li>
             </ul>
