@@ -101,24 +101,24 @@ export const Footer: React.FC = () => {
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors flex items-center gap-1"
                 >
-                  <span>Panduan Versi JMO</span>
+                  <span>Syarat dan ketentuan</span>
                   <ExternalLink className="w-3 h-3" />
                 </a>
               </li>
               <li>
                 <a
-                  href="https://www.dimasbn.my.id/p/paket-harga-jmo.html"
+                  href="https://member.jurnalmengajar.web.id/syarat-ketentuan"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors flex items-center gap-1"
                 >
-                  <span>Informasi Paket Harga Resmi</span>
+                  <span>Kebijakan Privasi</span>
                   <ExternalLink className="w-3 h-3" />
                 </a>
               </li>
               <li>
                 <a
-                  href="https://dimasbn.myr.id/membership/jurnal-mengajar-online-paket-bulanan"
+                  href="https://member.jurnalmengajar.web.id/kebijakan-privasi"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors flex items-center gap-1"
