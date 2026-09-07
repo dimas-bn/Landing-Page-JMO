@@ -55,18 +55,18 @@ export const PRICING_PLANS: PricingPlan[] = [
       'Prioritas bantuan teknis di Grup Telegram',
     ],
     ctaText: 'Pilih Paket Semester',
-    ctaLink: 'https://dimasbn.myr.id/membership/jurnal-mengajar-online-paket-semester/',
+    ctaLink: 'https://dimasbn.myr.id/membership/jurnal-mengajar-online-paket-semester',
     isPopular: false,
-    highlightNote: 'Cocok mengikuti kalender semester sekolah',
+    highlightNote: 'Hemat 17% dari harga Bulanan',
   },
   {
     id: 'tahunan',
     name: 'Paket Tahunan',
-    badge: 'Paling Hemat & Favorit Guru',
+    badge: 'Paling Praktis & Favorit Guru',
     price: 'Rp200.000',
     originalPrice: 'Rp400.000',
     period: '/ tahun (12 bulan)',
-    description: 'Hanya setara Rp16.700/bulan! Tenang Mengajar selama 1 Tahun Ajaran penuh.',
+    description: 'Hemat 17% dibanding Paket Bulanan juga — bedanya, cukup 1x bayar untuk 1 Tahun Ajaran penuh.',
     features: [
       'Semua Fitur Paket Semester',
       'Masa aktif 365 hari penuh, tanpa repot perpanjangan',
@@ -79,7 +79,7 @@ export const PRICING_PLANS: PricingPlan[] = [
     ctaText: 'Langganan 1 Tahun Sekarang',
     ctaLink: 'https://dimasbn.myr.id/membership/jurnal-mengajar-online-paket-tahunan',
     isPopular: true,
-    highlightNote: 'Pilihan mayoritas guru di Indonesia',
+    highlightNote: '1 tahun ngajar, tanpa ribet perpanjangan',
   },
 ];
 
