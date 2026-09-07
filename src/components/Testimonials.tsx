@@ -34,10 +34,6 @@ export const Testimonials: React.FC = () => {
                   "{t.highlight}"
                 </h4>
 
-                <h4 className="font-serif-heading italic font-bold text-sm sm:text-base text-[#2C4E3B] mb-3">
-                  "{t.highlight}"
-                </h4>
-
                 <p className="text-xs sm:text-sm text-[#1E2B22] leading-relaxed mb-4">
                   {t.content}
                 </p>
