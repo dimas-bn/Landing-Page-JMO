@@ -129,23 +129,23 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <a
+                  href="https://dimasbn.myr.id/membership/jurnal-mengajar-online-paket-semester"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors flex items-center gap-1"
+                >
+                  <span>Langganan Paket Semester</span>
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+              </li>
+              <li>
+                <a
                   href="https://dimasbn.myr.id/membership/jurnal-mengajar-online-paket-tahunan"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors flex items-center gap-1"
                 >
                   <span>Langganan Paket Tahunan</span>
-                  <ExternalLink className="w-3 h-3" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://dimasbn.myr.id/membership/jurnal-mengajar-online-lifetime-sekali-bayar"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-white transition-colors flex items-center gap-1"
-                >
-                  <span>Aktivasi Paket Lifetime</span>
                   <ExternalLink className="w-3 h-3" />
                 </a>
               </li>
