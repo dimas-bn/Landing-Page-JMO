@@ -23,8 +23,8 @@ export const PRICING_PLANS: PricingPlan[] = [
   {
     id: 'bulanan',
     name: 'Paket Bulanan',
-    price: 'Rp15.000',
-    originalPrice: 'Rp30.000',
+    price: 'Rp20.000',
+    originalPrice: 'Rp40.000',
     period: '/ bulan',
     description: 'Sangat terjangkau dan fleksibel, cocok untuk guru yang ingin mencoba per bulan.',
     features: [
@@ -41,50 +41,45 @@ export const PRICING_PLANS: PricingPlan[] = [
     highlightNote: 'Bisa diperpanjang kapan saja',
   },
   {
+    id: 'semester',
+    name: 'Paket Semester',
+    price: 'Rp100.000',
+    originalPrice: 'Rp200.000',
+    period: '/ semester (6 bulan)',
+    description: 'Hanya setara Rp16.700/bulan. Pas untuk 1 semester penuh tanpa mikir perpanjangan tiap bulan.',
+    features: [
+      'Semua Fitur Paket Bulanan',
+      'Masa aktif 6 bulan penuh, sekali bayar untuk 1 semester',
+      'Fitur Papan Poin Live tanpa batas kelas',
+      'Template rekap format standar sekolah',
+      'Prioritas bantuan teknis di Grup Telegram',
+    ],
+    ctaText: 'Pilih Paket Semester',
+    ctaLink: 'https://dimasbn.myr.id/membership/jurnal-mengajar-online-paket-semester/',
+    isPopular: false,
+    highlightNote: 'Cocok mengikuti kalender semester sekolah',
+  },
+  {
     id: 'tahunan',
     name: 'Paket Tahunan',
     badge: 'Paling Hemat & Favorit Guru',
-    price: 'Rp150.000',
-    originalPrice: 'Rp300.000',
+    price: 'Rp200.000',
+    originalPrice: 'Rp400.000',
     period: '/ tahun (12 bulan)',
-    description: 'Hanya setara Rp12.500/bulan! Tenang Mengajar selama 1 Tahun Ajaran penuh.',
+    description: 'Hanya setara Rp16.700/bulan! Tenang Mengajar selama 1 Tahun Ajaran penuh.',
     features: [
-      'Hemat 17% dibanding Paket Bulanan',
+      'Semua Fitur Paket Semester',
       'Masa aktif 365 hari penuh, tanpa repot perpanjangan',
       'Fitur Papan Poin Live tanpa batas kelas',
       'Template rekap format standar sekolah',
       'Prioritas bantuan teknis di Grup Telegram',
       'Akses awal ke fitur-fitur versi terbaru',
+      'Bisa ikut Program Partner JMO (komisi referral)',
     ],
     ctaText: 'Langganan 1 Tahun Sekarang',
     ctaLink: 'https://dimasbn.myr.id/membership/jurnal-mengajar-online-paket-tahunan',
     isPopular: true,
     highlightNote: 'Pilihan mayoritas guru di Indonesia',
-  },
-  {
-    id: 'lifetime',
-    name: 'Paket Lifetime',
-    badge: 'Sekali Bayar Selamanya',
-    price: 'Rp365.000',
-    originalPrice: 'Rp730.000',
-    period: 'sekali bayar seumur hidup',
-    description: 'Investasi Terbaik, untuk Karier Mengajar Anda, Selamanya Tanpa Langganan.',
-    features: [
-      'Akses seumur hidup (Lifetime Access)',
-      'Tidak ada biaya perpanjangan tahunan lagi',
-      'Semua pembaruan fitur di masa depan, GRATIS',
-      'Dukungan Fastest Response, via Grup Telegram',
-      'Bebas ekspor data dan cetak laporan kapan saja',
-      'Akses grup eksklusif guru pengguna Lifetime',
-    ],
-    ctaText: 'Beli Paket Lifetime',
-    ctaLink: 'https://dimasbn.myr.id/membership/jurnal-mengajar-online-lifetime-sekali-bayar',
-    isPopular: false,
-    highlightNote: 'Investasi Sekali, Tanpa Beban',
-    bonusLink: {
-      label: 'Bonus: Akses Direktori Data Kelas',
-      url: 'https://www.dimasbn.my.id/p/aplikasi-data-kelas-direktori-kelas.html',
-    },
   },
 ];
 
@@ -273,8 +268,8 @@ export const FAQS: FAQItem[] = [
   {
     id: 'faq-7',
     category: 'pembelian',
-    question: 'Apa perbedaan Paket Tahunan dan Lifetime?',
-    answer: 'Paket Tahunan berlaku selama 1 tahun ajaran (365 hari) seharga Rp150.000 (hanya Rp12.500/bulan). Sedangkan Paket Lifetime seharga Rp365.000 adalah pembayaran satu kali untuk akses selamanya tanpa biaya perpanjangan sama sekali.'
+    question: 'Apa perbedaan Paket Semester dan Tahunan?',
+    answer: 'Paket Semester berlaku 6 bulan seharga Rp100.000, cocok mengikuti kalender semester sekolah. Paket Tahunan berlaku 1 tahun ajaran penuh (365 hari) seharga Rp200.000 — sekali bayar untuk 2 semester sekaligus, plus bisa ikut Program Partner JMO untuk dapat komisi referral.'
   }
 ];
 
