@@ -29,7 +29,6 @@ export const PRICING_PLANS: PricingPlan[] = [
     description: 'Sangat terjangkau dan fleksibel, cocok untuk guru yang ingin mencoba per bulan.',
     features: [
       'Semua Fitur pada masa Trial',
-      'Pembaruan Berkala tanpa biaya tambahan',
       'Akses Multi-perangkat (HP, Tablet, Laptop, dan PC)',
       'Backup Cloud aman, dan Fitur Pemulihan',
       'Akses Grup Komunitas Telegram JMO',
@@ -49,6 +48,7 @@ export const PRICING_PLANS: PricingPlan[] = [
     description: 'Hanya setara Rp16.700/bulan. Pas untuk 1 semester penuh tanpa mikir perpanjangan tiap bulan.',
     features: [
       'Semua Fitur Paket Bulanan',
+      'Pembaruan Berkala tanpa biaya tambahan',
       'Masa aktif 6 bulan penuh, sekali bayar untuk 1 semester',
       'Fitur Papan Poin Live tanpa batas kelas',
       'Template rekap format standar sekolah',
@@ -69,11 +69,10 @@ export const PRICING_PLANS: PricingPlan[] = [
     description: 'Hemat 17% dibanding Paket Bulanan juga — bedanya, cukup 1x bayar untuk 1 Tahun Ajaran penuh.',
     features: [
       'Semua Fitur Paket Semester',
+      'Pembaruan Berkala tanpa biaya tambahan',
       'Masa aktif 365 hari penuh, tanpa repot perpanjangan',
-      'Fitur Papan Poin Live tanpa batas kelas',
       'Template rekap format standar sekolah',
       'Prioritas bantuan teknis di Grup Telegram',
-      'Akses awal ke fitur-fitur versi terbaru',
       'Bisa ikut Program Partner JMO (komisi referral)',
     ],
     ctaText: 'Langganan 1 Tahun Sekarang',
