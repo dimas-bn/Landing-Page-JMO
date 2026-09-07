@@ -10,13 +10,13 @@ export const Testimonials: React.FC = () => {
         <div className="text-center max-w-2xl mx-auto mb-14">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#2C4E3B] text-[#C08A2E] text-xs font-semibold uppercase tracking-wider mb-3 border border-[#3E6B52]">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>Pengalaman Nyata Rekan Guru</span>
+           <span>Contoh Skenario Penggunaan</span>
           </div>
           <h2 className="font-serif-heading text-2xl sm:text-3xl md:text-4xl font-semibold italic text-[#F6F2E4] mb-3">
-            Dipercaya Guru dari Berbagai Penjuru Indonesia
+           Bagaimana JMO Bisa Membantu Keseharian Mengajar Anda
           </h2>
           <p className="text-[#C9D6CC] text-sm sm:text-base">
-            Cerita bagaimana JMO membantu guru SD, MI, SMP, MTs, SMA, MA, SMK, dan MAK, menyederhanakan administrasi harian mereka.
+           Ilustrasi bagaimana JMO membantu guru SD, MI, SMP, MTs, SMA, MA, SMK, dan MAK menyederhanakan administrasi harian mereka.
           </p>
         </div>
 
