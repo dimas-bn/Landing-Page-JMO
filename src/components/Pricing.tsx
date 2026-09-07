@@ -209,14 +209,14 @@ export const Pricing: React.FC = () => {
 
       {/* Natural bridge to full pricing detail page */}
       <p className="text-center text-[#C9D6CC] text-sm mt-10">
-        Ingin mengetahui awal mula aplikasi ini dibuat?{' '}
+        Versi awal (Google Apps Script) tetap gratis selamanya, untuk yang mau setup sendiri...{' '}
         <a
           href="https://www.dimasbn.my.id/p/aplikasi-jurnal-mengajar-online-versi.html"
           target="_blank"
           rel="noopener noreferrer"
           className="text-[#C08A2E] font-semibold underline decoration-[#C08A2E]/40 underline-offset-4 hover:text-[#d49933] transition-colors"
         >
-          Lihat halaman JMO awal / GRATIS selamanya →
+          Lihat JMO versi awal / GRATIS selamanya →
         </a>
       </p>
     </section>
