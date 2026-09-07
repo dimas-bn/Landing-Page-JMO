@@ -189,47 +189,47 @@ export const FEATURE_HIGHLIGHTS: FeatureHighlight[] = [
 export const TESTIMONIALS: Testimonial[] = [
   {
     id: 't1',
-    name: 'Siti Rahmawati, S.Pd.',
     role: 'Guru Matematika',
-    school: 'SMAN 1 Garut',
     location: 'Jawa Barat',
-    avatarText: 'SR',
+   name: 'Guru Matematika',
+   school: '',
+   avatarText: 'GM',
     rating: 5,
     highlight: 'Rekap bulanan yang biasanya butuh 2 jam, sekarang selesai 5 detik!',
-    content: 'Dulu setiap akhir bulan pusing menghitung absensi 6 kelas paralel di buku tulis tebal. Sekarang dengan JMO, tinggal pilih bulan langsung keluar tabel persentase kehadiran dan rata-rata poin. Luar biasa membantu administrasi guru!'
+   content: 'Guru dengan 6 kelas paralel yang tadinya menghitung absensi manual di buku tulis kini cukup pilih bulan di JMO — tabel persentase kehadiran dan rata-rata poin langsung terhitung otomatis.'
   },
   {
     id: 't2',
-    name: 'Bambang Sudiro, M.Pd.',
     role: 'Guru Bahasa Indonesia',
-    school: 'SMP Negeri 3 Surabaya',
     location: 'Jawa Timur',
-    avatarText: 'BS',
+   name: 'Guru Bahasa Indonesia',
+   school: '',
+   avatarText: 'GB',
     rating: 5,
     highlight: 'Fitur Papan Poin di proyektor membuat anak-anak super antusias menjawab!',
-    content: 'Papan Poin kelas itu magnet luar biasa. Setiap kali anak bertanya atau presentasi, saya tambahkan poinnya dan proyektor langsung update. Suasana kelas jadi hidup dan mereka berebut aktif. Tampilan kertasnya juga sangat elegan.'
+   content: 'Papan Poin yang tampil di proyektor kelas jadi pemicu suasana kompetitif yang sehat — setiap kali siswa aktif bertanya atau presentasi, poinnya langsung diperbarui dan terlihat semua orang.'
   },
   {
     id: 't3',
-    name: 'Ahmad Fauzi, S.Kom.',
     role: 'Guru Produktif RPL',
-    school: 'SMKN 2 Bandung',
     location: 'Jawa Barat',
-    avatarText: 'AF',
+   name: 'Guru Produktif RPL',
+   school: '',
+   avatarText: 'GP',
     rating: 5,
     highlight: 'Bisa dibuka dari HP di kelas, lanjut cek di laptop saat di ruang guru.',
-    content: 'Sangat responsif dan ringan di HP Android saya. Waktu pergantian jam tinggal klik salin materi terakhir, presensi 30 detik selesai. Tidak khawatir buku jurnal ketinggalan di meja rumah lagi.'
+   content: 'Ringan dibuka dari HP Android di kelas. Saat pergantian jam, tinggal klik salin materi terakhir dan presensi selesai dalam hitungan detik — tidak perlu khawatir buku jurnal tertinggal di rumah.'
   },
   {
     id: 't4',
-    name: 'Dewi Anggraeni, S.Pd.',
     role: 'Guru IPA & Wali Kelas',
-    school: 'SMP Swasta Teladan',
     location: 'Yogyakarta',
-    avatarText: 'DA',
+   name: 'Guru IPA & Wali Kelas',
+   school: '',
+   avatarText: 'GI',
     rating: 5,
     highlight: 'Setup siswanya praktis banget, tinggal copy-paste daftar nama dari Excel.',
-    content: 'Awalnya saya kira bakal ribet input 150 siswa. Ternyata ada fitur paste massal, sekali klik langsung rapi ada nomor presensinya. Sangat direkomendasikan untuk semua rekan guru di Indonesia.'
+   content: 'Input data ratusan siswa yang tadinya dikira akan ribet, ternyata bisa lewat fitur paste massal — sekali tempel dari Excel, nomor presensi langsung rapi terurut otomatis.'
   }
 ];
 
