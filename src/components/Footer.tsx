@@ -96,7 +96,7 @@ export const Footer: React.FC = () => {
             <ul className="space-y-2 text-xs text-[#A2B3A7]">
               <li>
                 <a
-                  href="https://www.dimasbn.my.id/p/aplikasi-jurnal-mengajar-online-versi.html"
+                  href="https://member.jurnalmengajar.web.id/syarat-ketentuan"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors flex items-center gap-1"
@@ -107,7 +107,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <a
-                  href="https://member.jurnalmengajar.web.id/syarat-ketentuan"
+                  href="https://member.jurnalmengajar.web.id/kebijakan-privasi"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors flex items-center gap-1"
@@ -118,7 +118,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <a
-                  href="https://member.jurnalmengajar.web.id/kebijakan-privasi"
+                  href="https://dimasbn.myr.id/membership/jurnal-mengajar-online-paket-bulanan"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors flex items-center gap-1"
