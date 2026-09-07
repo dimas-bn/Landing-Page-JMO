@@ -9,7 +9,7 @@ export const Pricing: React.FC = () => {
       <div className="text-center max-w-3xl mx-auto mb-14">
         <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-[#2C4E3B] text-[#C08A2E] text-xs font-semibold uppercase tracking-wider mb-3 border border-[#3E6B52] shadow-sm">
           <Sparkles className="w-3.5 h-3.5" />
-          <span>Investasi Terbaik & Terjangkau untuk Guru</span>
+          <span>Investasi Terjangkau untuk Guru</span>
         </div>
         <h2 className="font-serif-heading text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold italic text-[#F6F2E4] mb-4">
           Pilihan Paket Sederhana & Transparan
