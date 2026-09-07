@@ -162,7 +162,7 @@ export const Footer: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#A8BEAF] hover:text-white transition-colors"
-            ></a><img
+            ><img
              src="/avatar-dimas.png"
              alt="Dimas BN"
              className="w-9 h-9 rounded-full inline-block align-middle mx-2 my-2"
