@@ -216,8 +216,8 @@ export const Pricing: React.FC = () => {
           {[
             { step: '1', text: 'Daftar akun dulu di member.jurnalmengajar.web.id (gratis, selama 7 hari)' },
             { step: '2', text: 'Pilih paket yang tersedia di atas, lalu klik tombol "Langganan Sekarang"' },
-            { step: '3', text: 'Saat membayar di Mayar, pastikan pakai Email yang SAMA seperti saat daftar kun' },
-            { step: '4', text: 'Akun akan teraktivasi secara otomatis dalam hitungan detik, tanpa konfirmasi manual' },
+            { step: '3', text: 'Saat membayar di Mayar, pastikan pakai Email SAMA, seperti saat daftar akun' },
+            { step: '4', text: 'Akun teraktivasi otomatis dalam hitungan detik, tanpa konfirmasi manual' },
           ].map((item) => (
             <div key={item.step} className="bg-[#142018] border border-[#2C4E3B] rounded-[10px] p-4">
               <div className="w-8 h-8 rounded-full bg-[#C08A2E] text-[#1E2B22] font-bold flex items-center justify-center mx-auto mb-2">
