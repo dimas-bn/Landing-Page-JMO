@@ -214,7 +214,7 @@ export const Pricing: React.FC = () => {
         </h3>
         <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 text-center">
           {[
-            { step: '1', text: 'Daftar akun dulu di member.jurnalmengajar.web.id (gratis, dapat dipakai selama 7 hari)' },
+            { step: '1', text: 'Daftar akun dulu di member.jurnalmengajar.web.id (gratis, selama 7 hari)' },
             { step: '2', text: 'Pilih paket yang tersedia di atas, lalu klik tombol "Langganan Sekarang"' },
             { step: '3', text: 'Saat membayar di Mayar, pastikan pakai Email yang SAMA seperti saat daftar kun' },
             { step: '4', text: 'Akun akan teraktivasi secara otomatis dalam hitungan detik, tanpa konfirmasi manual' },
