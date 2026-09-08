@@ -8,7 +8,7 @@ export const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="bg-[#141D17] border-t border-[#2C4E3B] text-[#CFE0D3] pt-14 pb-10">
+    <footer className="bg-[#141D17] border-t border-[#2C4E3B] text-[#CFE0D3] pt-14 pb-24 md:pb-10">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 pb-12 border-b border-[#2C4E3B]">
           {/* Brand Col */}
@@ -167,7 +167,7 @@ export const Footer: React.FC = () => {
              alt="Dimas BN"
              className="w-9 h-9 rounded-full inline-block align-middle mx-2 my-2"
              /> 
-              Dimas BN
+              <strong>Dimas BN</strong>
             </a>
           </div>
 
