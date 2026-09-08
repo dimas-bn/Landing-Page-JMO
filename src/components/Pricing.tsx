@@ -214,10 +214,10 @@ export const Pricing: React.FC = () => {
         </h3>
         <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 text-center">
           {[
-            { step: '1', text: 'Daftar akun dulu <a href="https://member.jurnalmengajar.web.id/"><u><strong>disini</strong></u></a> (gratis, dapat masa uji coba selama 7 hari)' },
-            { step: '2', text: 'Pilih paket di atas, klik tombol <strong>"Langganan Sekarang"</strong>' },
-            { step: '3', text: 'Bayar pakai <span style="font-weight:500"><u>Email yang SAMA</u></span> seperti saat Daftar Akun' },
-            { step: '4', text: '<strong>Akun otomatis aktif</strong> dalam hitungan beberapa detik, tanpa konfirmasi manual' },
+            { step: '1', text: 'Daftar akun dulu di member.jurnalmengajar.web.id (gratis, dapat dipakai selama 7 hari)' },
+            { step: '2', text: 'Pilih paket yang tersedia di atas, lalu klik tombol "Langganan Sekarang"' },
+            { step: '3', text: 'Saat membayar di Mayar, pastikan pakai Email yang SAMA seperti saat daftar kun' },
+            { step: '4', text: 'Akun akan teraktivasi secara otomatis dalam hitungan detik, tanpa konfirmasi manual' },
           ].map((item) => (
             <div key={item.step} className="bg-[#142018] border border-[#2C4E3B] rounded-[10px] p-4">
               <div className="w-8 h-8 rounded-full bg-[#C08A2E] text-[#1E2B22] font-bold flex items-center justify-center mx-auto mb-2">
