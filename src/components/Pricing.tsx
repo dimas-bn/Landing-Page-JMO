@@ -207,6 +207,28 @@ export const Pricing: React.FC = () => {
         </div>
       </div>
 
+      {/* Instruksi Checkout Singkat */}
+      <div className="mt-10 max-w-4xl mx-auto">
+        <h3 className="text-center font-serif-heading text-lg sm:text-xl font-semibold italic text-[#F6F2E4] mb-6">
+          Cara Berlangganan, Cuma 4 Langkah
+        </h3>
+        <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 text-center">
+          {[
+            { step: '1', text: 'Daftar akun dulu di member.jurnalmengajar.web.id (gratis, langsung dapat Trial 7 hari)' },
+            { step: '2', text: 'Pilih paket di atas, klik tombolnya' },
+            { step: '3', text: 'Bayar pakai EMAIL YANG SAMA seperti saat daftar akun' },
+            { step: '4', text: 'Akun otomatis aktif dalam hitungan detik, tanpa konfirmasi manual' },
+          ].map((item) => (
+            <div key={item.step} className="bg-[#142018] border border-[#2C4E3B] rounded-[10px] p-4">
+              <div className="w-8 h-8 rounded-full bg-[#C08A2E] text-[#1E2B22] font-bold flex items-center justify-center mx-auto mb-2">
+                {item.step}
+              </div>
+              <p className="text-[#CFE0D3] text-xs sm:text-[13px] leading-relaxed">{item.text}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+      
       {/* Natural bridge to full pricing detail page */}
       <p className="text-center text-[#C9D6CC] text-sm mt-10">
         Versi awal (Google Apps Script) tetap gratis selamanya, untuk yang mau setup sendiri...{' '}
