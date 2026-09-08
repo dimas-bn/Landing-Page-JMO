@@ -267,7 +267,7 @@ export const FAQS: FAQItem[] = [
     id: 'faq-7',
     category: 'pembelian',
     question: 'Apa perbedaan Paket Bulanan, Semester, dan Tahunan?',
-    answer: 'Paket Bulanan (Rp20.000) fleksibel dan diperpanjang tiap bulan. Paket Semester (Rp100.000) berlaku 6 bulan — setara 5 bulan harga Bulanan, pas untuk 1 semester ajaran. Paket Tahunan (Rp200.000) berlaku 12 bulan — setara 10 bulan harga Bulanan, pilihan paling hemat untuk komitmen 1 tahun penuh.'
+    answer: 'Paket Bulanan (Rp20.000) fleksibel dan diperpanjang tiap bulan. Paket Semester (Rp100.000) berlaku 6 bulan — setara 5 bulan harga Bulanan, pas untuk 1 semester ajaran. Paket Tahunan (Rp200.000) berlaku 12 bulan — setara 10 bulan harga Bulanan, pilihan paling praktis untuk komitmen 1 tahun penuh.'
   },
   {
     id: 'faq-8',
