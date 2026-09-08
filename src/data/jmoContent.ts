@@ -268,6 +268,18 @@ export const FAQS: FAQItem[] = [
     category: 'pembelian',
     question: 'Apa perbedaan Paket Bulanan, Semester, dan Tahunan?',
     answer: 'Paket Bulanan (Rp20.000) fleksibel dan diperpanjang tiap bulan. Paket Semester (Rp100.000) berlaku 6 bulan — setara 5 bulan harga Bulanan, pas untuk 1 semester ajaran. Paket Tahunan (Rp200.000) berlaku 12 bulan — setara 10 bulan harga Bulanan, pilihan paling hemat untuk komitmen 1 tahun penuh.'
+  },
+  {
+    id: 'faq-8',
+    category: 'pembelian',
+    question: 'Saya lagi pakai Paket Bulanan/Semester, mau ganti ke paket lain, gimana caranya?',
+    answer: 'Tinggal beli paket yang diinginkan seperti biasa, pakai EMAIL YANG SAMA dengan akun Anda. Setelah pembayaran berhasil, sistem otomatis mengganti paket Anda dan menghitung masa aktif baru mulai dari SAAT PEMBAYARAN itu (bukan ditambahkan ke sisa masa aktif paket lama).'
+  },
+  {
+    id: 'faq-9',
+    category: 'pembelian',
+    question: 'Kalau saya beli paket baru sebelum paket lama habis, sisa harinya hangus?',
+    answer: 'Ya, masa aktif tidak terakumulasi — pembelian baru akan menghitung ulang masa aktif dari tanggal pembayaran terbaru. Supaya tidak ada sisa masa aktif yang terbuang, sebaiknya beli/perpanjang paket saat mendekati tanggal berakhir, bukan jauh-jauh hari sebelumnya.'
   }
 ];
 
