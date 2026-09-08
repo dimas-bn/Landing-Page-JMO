@@ -29,6 +29,7 @@ export const PRICING_PLANS: PricingPlan[] = [
     description: 'Sangat terjangkau dan fleksibel, cocok untuk guru yang ingin mencoba per bulan.',
     features: [
       'Semua Fitur pada masa Trial',
+      'Pembaruan Berkala tanpa biaya tambahan',
       'Akses Multi-perangkat (HP, Tablet, Laptop, dan PC)',
       'Backup Cloud aman, dan Fitur Pemulihan',
       'Akses Grup Komunitas Telegram JMO',
