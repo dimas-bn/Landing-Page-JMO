@@ -69,6 +69,7 @@ export const PRICING_PLANS: PricingPlan[] = [
     period: '/ tahun (12 bulan)',
     description: 'Hemat 17% dibanding Paket Bulanan juga — bedanya, cukup 1x bayar untuk 1 Tahun Ajaran penuh.',
     features: [
+      'Semua Fitur Paket Semester'
       'Setara 10 bulan harga Bulanan — hemat 2 bulan',
       'Masa aktif 365 hari penuh, tanpa repot perpanjangan',
       'Prioritas bantuan teknis di Grup Telegram',
