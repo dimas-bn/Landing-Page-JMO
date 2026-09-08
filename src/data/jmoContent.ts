@@ -57,7 +57,7 @@ export const PRICING_PLANS: PricingPlan[] = [
     ctaText: 'Pilih Paket Semester',
     ctaLink: 'https://dimasbn.myr.id/membership/jurnal-mengajar-online-paket-semester',
     isPopular: false,
-    highlightNote: 'Hemat 17% dari harga Bulanan',
+    highlightNote: 'Setara 5 bulan harga Bulanan — hemat 1 bulan',
   },
   {
     id: 'tahunan',
@@ -68,11 +68,10 @@ export const PRICING_PLANS: PricingPlan[] = [
     period: '/ tahun (12 bulan)',
     description: 'Hemat 17% dibanding Paket Bulanan juga — bedanya, cukup 1x bayar untuk 1 Tahun Ajaran penuh.',
     features: [
-      'Semua Fitur Paket Semester',
-      'Pembaruan Berkala tanpa biaya tambahan',
+      'Setara 10 bulan harga Bulanan — hemat 2 bulan',
       'Masa aktif 365 hari penuh, tanpa repot perpanjangan',
-      'Template rekap format standar sekolah',
       'Prioritas bantuan teknis di Grup Telegram',
+      'Akses awal ke fitur-fitur versi terbaru',
       'Bisa ikut Program Partner JMO (komisi referral)',
     ],
     ctaText: 'Langganan 1 Tahun Sekarang',
@@ -267,8 +266,8 @@ export const FAQS: FAQItem[] = [
   {
     id: 'faq-7',
     category: 'pembelian',
-    question: 'Apa perbedaan Paket Semester dan Tahunan?',
-    answer: 'Paket Semester berlaku 6 bulan seharga Rp100.000, cocok mengikuti kalender semester sekolah. Paket Tahunan berlaku 1 tahun ajaran penuh (365 hari) seharga Rp200.000 — sekali bayar untuk 2 semester sekaligus, plus bisa ikut Program Partner JMO untuk dapat komisi referral.'
+    question: 'Apa perbedaan Paket Bulanan, Semester, dan Tahunan?',
+    answer: 'Paket Bulanan (Rp20.000) fleksibel dan diperpanjang tiap bulan. Paket Semester (Rp100.000) berlaku 6 bulan — setara 5 bulan harga Bulanan, pas untuk 1 semester ajaran. Paket Tahunan (Rp200.000) berlaku 12 bulan — setara 10 bulan harga Bulanan, pilihan paling hemat untuk komitmen 1 tahun penuh.'
   }
 ];
 
