@@ -22,15 +22,15 @@ export const Comparison: React.FC = () => {
 
         {/* Comparison Table / Card Container */}
         <div className="notebook-page notebook-margin-line p-5 sm:p-8 pl-12 sm:pl-16 rounded-[8px] border border-[#D8CDB0] shadow-xl overflow-hidden">
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-4 pb-4 border-b border-[#D8CDB0] items-center">
-            <div className="md:col-span-4 font-serif-heading italic font-bold text-sm sm:text-base text-[#2C4E3B]">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 pb-4 border-b border-[#D8CDB0] items-center">
+            <div className="lg:col-span-4 font-serif-heading italic font-bold text-sm sm:text-base text-[#2C4E3B]">
               Aspek Administrasi
             </div>
-            <div className="md:col-span-4 flex items-center gap-1.5 font-semibold text-xs sm:text-sm text-[#A63D3D]">
+            <div className="lg:col-span-4 flex items-center gap-1.5 font-semibold text-xs sm:text-sm text-[#A63D3D]">
               <X className="w-4 h-4 text-[#A63D3D]" />
               <span>Buku Kertas Tradisional</span>
             </div>
-            <div className="md:col-span-4 flex items-center gap-1.5 font-bold text-xs sm:text-sm text-[#2C4E3B]">
+            <div className="lg:col-span-4 flex items-center gap-1.5 font-bold text-xs sm:text-sm text-[#2C4E3B]">
               <Check className="w-4 h-4 text-[#3E6B52]" />
               <span>Jurnal Mengajar Online (JMO)</span>
             </div>
@@ -40,19 +40,19 @@ export const Comparison: React.FC = () => {
             {COMPARISON_DATA.map((row, idx) => (
               <div
                 key={idx}
-                className="grid grid-cols-1 md:grid-cols-12 gap-3 sm:gap-4 py-4 items-start hover:bg-white/40 transition-colors"
+                className="grid grid-cols-1 lg:grid-cols-12 gap-3 sm:gap-4 py-4 items-start hover:bg-white/40 transition-colors"
               >
-                <div className="md:col-span-4 font-semibold text-xs sm:text-sm text-[#1E2B22]">
+                <div className="lg:col-span-4 font-semibold text-xs sm:text-sm text-[#1E2B22]">
                   {row.category}
                 </div>
 
-                <div className="md:col-span-4 text-xs sm:text-sm text-[#6E6252] bg-[#F5E2DF]/60 p-2.5 rounded border border-[#E3C6C1]/50">
-                  <span className="text-[#A63D3D] font-bold block mb-0.5 md:hidden">Buku Kertas:</span>
+                <div className="lg:col-span-4 text-xs sm:text-sm text-[#6E6252] bg-[#F5E2DF]/60 p-2.5 rounded border border-[#E3C6C1]/50">
+                  <span className="text-[#A63D3D] font-bold block mb-0.5 lg:hidden">Buku Kertas:</span>
                   {row.paper}
                 </div>
 
-                <div className="md:col-span-4 text-xs sm:text-sm text-[#1E2B22] font-medium bg-[#E4EEE7]/80 p-2.5 rounded border border-[#3E6B52]/40 shadow-xs">
-                  <span className="text-[#2C4E3B] font-bold block mb-0.5 md:hidden">JMO:</span>
+                <div className="lg:col-span-4 text-xs sm:text-sm text-[#1E2B22] font-medium bg-[#E4EEE7]/80 p-2.5 rounded border border-[#3E6B52]/40 shadow-xs">
+                  <span className="text-[#2C4E3B] font-bold block mb-0.5 lg:hidden">JMO:</span>
                   {row.jmo}
                 </div>
               </div>
