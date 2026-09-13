@@ -79,7 +79,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
             href="#harga"
             className="px-3.5 lg:px-4 py-2 text-xs font-bold tracking-wide rounded-[5px] bg-[#C08A2E] hover:bg-[#d69c36] text-[#1E2B22] shadow-sm transition-all flex items-center gap-1.5 cursor-pointer whitespace-nowrap font-sans shrink-0"
           >
-            <span>Coba 7 Hari Gratis</span>
+            <span>Coba 30 Hari Gratis</span>
             <ArrowRight className="w-3.5 h-3.5 hidden sm:inline" />
           </a>
         </div>
@@ -152,7 +152,7 @@ export const Navbar: React.FC<NavbarProps> = () => {
               onClick={() => setMobileMenuOpen(false)}
               className="w-full py-2.5 px-3 text-center text-xs font-bold rounded-[5px] bg-[#C08A2E] text-[#1E2B22] flex items-center justify-center gap-1.5"
             >
-              <span>Mulai Uji Coba 7 Hari Gratis</span>
+              <span>Mulai Uji Coba 30 Hari Gratis</span>
               <ArrowRight className="w-3.5 h-3.5" />
             </a>
           </div>
