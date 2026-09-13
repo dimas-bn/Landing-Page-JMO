@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { PromoBanner } from './components/PromoBanner';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { InteractiveDemo } from './components/InteractiveDemo';
@@ -17,6 +18,9 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#1E2B22] text-[#1E2B22] font-sans selection:bg-[#C08A2E] selection:text-[#1E2B22] relative">
+      {/* Promo/Diskon Banner - ON/OFF via PROMO_BANNER.active di jmoContent.ts */}
+      <PromoBanner />
+
       {/* Top sticky alert announcement */}
       <div className="bg-[#2C4E3B] text-[#F6F2E4] py-2 px-4 text-center text-xs border-b border-[#3E6B52] flex items-center justify-center gap-2">
         <span className="bg-[#C08A2E] text-[#1E2B22] text-[10px] font-bold px-2 py-0.5 rounded uppercase">
