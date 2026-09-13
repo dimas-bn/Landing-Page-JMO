@@ -6,7 +6,7 @@ export const Pricing: React.FC = () => {
   return (
     <section id="harga" className="py-16 md:py-24 max-w-7xl 2xl:max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
       {/* Section Header */}
-      <div className="text-center max-w-3xl mx-auto mb-14">
+      <div className="text-center max-w-3xl mx-auto mb-6">
         <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-[#2C4E3B] text-[#C08A2E] text-xs font-semibold uppercase tracking-wider mb-3 border border-[#3E6B52] shadow-sm">
           <Sparkles className="w-3.5 h-3.5" />
           <span>Investasi Terjangkau untuk Guru</span>
@@ -18,6 +18,19 @@ export const Pricing: React.FC = () => {
           Mulai dengan <strong>30 hari uji coba gratis tanpa komitmen</strong>. Lanjutkan dengan pilihan paket fleksibel 
           yang dirancang khusus agar sangat terjangkau bagi para pendidik di seluruh Indonesia.
         </p>
+      </div>
+
+      {/* Trust Badge - Keamanan Transaksi via Mayar */}
+      <div className="flex flex-wrap items-center justify-center gap-2.5 mx-auto mb-10 px-5 py-2.5 rounded-full bg-[#18231C] border border-[#2C4E3B] w-fit max-w-full shadow-sm">
+        <ShieldCheck className="w-4 h-4 text-[#C08A2E] flex-shrink-0" />
+        <span className="text-[#C9D6CC] text-xs sm:text-sm text-center">
+          Transaksi pembayaran dikelola aman &amp; terpercaya oleh
+        </span>
+        <img
+          src="/mayar-logo.webp"
+          alt="Mayar - SimplePay"
+          className="h-5 sm:h-6 w-auto bg-white rounded-[4px] px-1.5 py-0.5 flex-shrink-0"
+        />
       </div>
 
       {/* Pricing Cards Grid - Spacious & Balanced on Large Displays */}
