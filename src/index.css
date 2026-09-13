@@ -92,3 +92,38 @@
   background: #508467;
 }
 
+/* Hero background ambient animation */
+@keyframes blob-drift-a {
+  0%, 100% { transform: translate(-50%, 0) scale(1); }
+  50%      { transform: translate(-45%, 4%) scale(1.08); }
+}
+@keyframes blob-drift-b {
+  0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.5; }
+  50%      { transform: translate(-6%, 6%) scale(1.12); opacity: 0.75; }
+}
+@keyframes blob-drift-c {
+  0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.4; }
+  50%      { transform: translate(5%, -5%) scale(1.1); opacity: 0.65; }
+}
+@keyframes grid-drift {
+  0%   { background-position: 0 0; }
+  100% { background-position: 60px 60px; }
+}
+
+.hero-blob-a { animation: blob-drift-a 14s ease-in-out infinite; }
+.hero-blob-b { animation: blob-drift-b 18s ease-in-out infinite; animation-delay: -4s; }
+.hero-blob-c { animation: blob-drift-c 22s ease-in-out infinite; animation-delay: -9s; }
+
+.hero-grid-overlay {
+  background-image: radial-gradient(circle, rgba(192,138,46,0.35) 1px, transparent 1px);
+  background-size: 34px 34px;
+  animation: grid-drift 40s linear infinite;
+}
+
+/* Hormati pengguna yang memilih "reduce motion" di HP/OS-nya */
+@media (prefers-reduced-motion: reduce) {
+  .hero-blob-a, .hero-blob-b, .hero-blob-c, .hero-grid-overlay {
+    animation: none;
+  }
+}
+
