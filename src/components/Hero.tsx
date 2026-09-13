@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   ArrowRight,
   CheckCircle2,
@@ -23,6 +23,26 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProjectorDemo }) => {
   const [selectedStatus, setSelectedStatus] = useState<string>('Hadir');
   const [points, setPoints] = useState<number>(4);
   const [copied, setCopied] = useState<boolean>(false);
+
+    const rotatingPhrases = [
+    'Jangan Biarkan Jurnal Lecek',
+    'Jangan Biarkan Absensi Kertas',
+    'Jangan Biarkan Catatan Tercecer',
+    'Jangan Biarkan Rekap Manual',
+  ];
+  const [phraseIndex, setPhraseIndex] = useState(0);
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIsVisible(false); // mulai fade-out
+      setTimeout(() => {
+        setPhraseIndex((prev) => (prev + 1) % rotatingPhrases.length);
+        setIsVisible(true); // fade-in teks baru
+      }, 350); // durasi fade-out, harus sinkron dgn transition-duration di bawah
+    }, 2800); // jeda tiap pergantian kata
+    return () => clearInterval(interval);
+  }, []);
 
   const handleCopy = () => {
     setCopied(true);
@@ -52,8 +72,12 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProjectorDemo }) => {
           <h1 className="font-serif-heading text-3xl sm:text-4xl md:text-5xl lg:text-[54px] font-semibold italic text-[#F6F2E4] leading-[1.18] tracking-tight mb-5">
             Mengajar Sudah Cukup Menguras Energi.
             <br />
-            <span className="text-[#C08A2E] not-italic font-normal">
-              Jangan Biarkan Administrasi
+            <span
+              className={`text-[#C08A2E] not-italic font-normal inline-block transition-all duration-350 ease-out ${
+                isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-2'
+              }`}
+            >
+              {rotatingPhrases[phraseIndex]}
             </span>{' '}
             Ikut Mengurasnya.
           </h1>
