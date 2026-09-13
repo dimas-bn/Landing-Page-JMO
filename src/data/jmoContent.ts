@@ -1,5 +1,12 @@
 import { PricingPlan, Testimonial, FAQItem, FeatureHighlight, StudentItem } from '../types';
 
+export const PROMO_BANNER = {
+  active: false, // ganti ke true saat ada promo, false untuk menyembunyikan (mati total, tidak ambil ruang sama sekali)
+  text: 'Diskon spesial Paket Tahunan, khusus bulan ini!',
+  ctaText: 'Klaim Sekarang',
+  ctaHref: '#harga',
+};
+
 export const PRICING_PLANS: PricingPlan[] = [
   {
     id: 'trial',
