@@ -25,7 +25,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProjectorDemo }) => {
   const [copied, setCopied] = useState<boolean>(false);
 
     const rotatingPhrases = [
-    'Jangan Biarkan Jurnal Lecek',
+    'Jangan Biarkan Jurnal Hilang',
     'Jangan Biarkan Absensi Kertas',
     'Jangan Biarkan Catatan Tercecer',
     'Jangan Biarkan Rekap Manual',
