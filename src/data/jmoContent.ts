@@ -3,9 +3,9 @@ import { PricingPlan, Testimonial, FAQItem, FeatureHighlight, StudentItem } from
 export const PRICING_PLANS: PricingPlan[] = [
   {
     id: 'trial',
-    name: 'Trial 7 Hari',
+    name: 'Trial 30 Hari',
     price: 'Gratis',
-    period: 'selama 7 hari',
+    period: 'selama 30 hari',
     description: 'Coba gratis tanpa komitmen, untuk merasakan kemudahan mencatat Materi KBM dan Presensi.',
     features: [
       'Akses penuh semua fitur Jurnal Mengajar Online',
