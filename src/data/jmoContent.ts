@@ -146,7 +146,7 @@ export const FEATURE_HIGHLIGHTS: FeatureHighlight[] = [
   },
   {
     id: 'smart-setup',
-    title: 'Setup Kilat: Paste 36 Siswa Sekaligus',
+    title: 'Setup Kilat: Puluhan Siswa Sekaligus',
     tagline: 'Hemat Waktu di Awal Semester',
     description: 'Tidak perlu mengetik nama siswa satu persatu. Cukup copy daftar nama dari Excel, Word, atau Dapodik, lalu paste di kotak input massal.',
     points: [
@@ -185,6 +185,34 @@ export const FEATURE_HIGHLIGHTS: FeatureHighlight[] = [
     ],
     icon: 'History',
     badge: 'Keamanan Data'
+  },
+  {
+    id: 'offline-mode',
+    title: 'Tetap Bisa Isi Jurnal Walau Sinyal Hilang',
+    tagline: 'Mode Offline & Bisa Di-install ke HP',
+    description: 'Sinyal lemot di dalam kelas? Jurnal tetap tersimpan aman di HP, lalu otomatis terkirim sendiri begitu sinyal kembali. JMO juga bisa ditambahkan ke Layar Utama HP seperti aplikasi biasa.',
+    points: [
+      'Draft jurnal tersimpan lokal saat offline, auto-sync saat online',
+      'Bisa "Install" ke Home Screen HP tanpa lewat Play Store/App Store',
+      'Tetap ringan dibuka meski sinyal sekolah tidak stabil',
+      'Tidak ada risiko data hilang akibat koneksi putus di tengah isi jurnal'
+    ],
+    icon: 'WifiOff',
+    badge: 'Andal di Kondisi Sinyal Apapun'
+  },
+  {
+    id: 'grading-kkm',
+    title: 'Nilai Otomatis Terwarnai Sesuai KKM',
+    tagline: 'Tidak Perlu Spidol Warna-Warni Lagi',
+    description: 'Atur 3 ambang batas nilai (Jeblok, KKM, Istimewa), dan JMO otomatis mewarnai setiap nilai yang diinput. Ada juga Rumus Nilai Rapor custom untuk hitung nilai akhir sesuai kebijakan sekolah masing-masing.',
+    points: [
+      'Input massal nilai via paste teks atau upload Excel/CSV',
+      'Pewarnaan otomatis: merah (di bawah KKM), hijau (istimewa)',
+      'Susun sendiri Rumus Nilai Rapor dari kolom-kolom penilaian',
+      'Grafik tren nilai per siswa dari waktu ke waktu'
+    ],
+    icon: 'GraduationCap',
+    badge: 'Bebas Hitung Manual'
   }
 ];
 
@@ -246,7 +274,7 @@ export const FAQS: FAQItem[] = [
     id: 'faq-2',
     category: 'fitur',
     question: 'Bagaimana cara menampilkan Papan Poin di proyektor kelas?',
-    answer: 'Di menu Setup Kelas, terdapat tombol "🚀 Papan Poin". Anda cukup menyalin link unik tersebut dan membukanya di laptop yang terhubung ke proyektor/smart TV, atau langsung dari browser HP siswa maupun guru. Halaman tersebut khusus menampilkan leaderboard peringkat poin siswa tanpa tombol edit, sehingga aman dilihat seluruh siswa.'
+    answer: 'Di menu Setup Kelas, terdapat tombol "🚀 Papan Poin" untuk disalin ke laptop/proyektor, dan tombol "📱 QR Code" supaya siswa tinggal scan dari HP masing-masing. Halaman tersebut khusus menampilkan leaderboard peringkat poin siswa tanpa tombol edit, sehingga aman dilihat seluruh siswa.'
   },
   {
     id: 'faq-3',
