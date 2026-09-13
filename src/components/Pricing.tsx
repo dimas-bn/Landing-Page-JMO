@@ -15,7 +15,7 @@ export const Pricing: React.FC = () => {
           Pilihan Paket Sederhana & Transparan
         </h2>
         <p className="text-[#C9D6CC] text-sm sm:text-base leading-relaxed">
-          Mulai dengan <strong>7 hari uji coba gratis tanpa komitmen</strong>. Lanjutkan dengan pilihan paket fleksibel 
+          Mulai dengan <strong>30 hari uji coba gratis tanpa komitmen</strong>. Lanjutkan dengan pilihan paket fleksibel 
           yang dirancang khusus agar sangat terjangkau bagi para pendidik di seluruh Indonesia.
         </p>
       </div>
@@ -214,7 +214,7 @@ export const Pricing: React.FC = () => {
         </h3>
         <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 text-center">
           {[
-            { step: '1', text: 'Daftar akun dulu di member.jurnalmengajar.web.id (gratis pakai, selama 7 hari)' },
+            { step: '1', text: 'Daftar akun dulu di member.jurnalmengajar.web.id (gratis pakai, selama 30 hari)' },
             { step: '2', text: 'Pilih paket yang tersedia di atas, lalu klik tombol yang sesuai pilihan' },
             { step: '3', text: 'Saat membayar di Mayar, pastikan pakai Email SAMA, seperti saat daftar akun' },
             { step: '4', text: 'Akun teraktivasi otomatis dalam hitungan detik, tanpa konfirmasi manual' },
