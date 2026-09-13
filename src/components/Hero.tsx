@@ -165,11 +165,12 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProjectorDemo }) => {
             </div>
 
             {/* Quick reminder banner */}
-            <div className="bg-[#FFF6D8] border border-[#E8D98A] rounded-[5px] p-2.5 text-xs text-[#5C4319] mb-4 flex items-center justify-between">
-              <span className="flex items-center gap-1.5 font-medium">
-                <span>⏰ Pengingat:</span> 1 kelas tersisa hari ini (XII 5 Jam 7-8).
+            <div className="bg-[#FFF6D8] border border-[#E8D98A] rounded-[5px] p-2.5 text-xs text-[#5C4319] mb-4 flex items-start justify-between gap-2">
+              <span className="flex items-start gap-1.5 font-medium min-w-0">
+                <span className="shrink-0">⏰ Pengingat:</span>
+                <span className="break-words">1 kelas tersisa hari ini (XII 5 Jam 7-8).</span>
               </span>
-              <span className="text-[10px] font-bold text-[#8A7220] uppercase bg-[#F6F2E4] px-1.5 py-0.5 rounded border border-[#E8D98A]">
+              <span className="shrink-0 text-[10px] font-bold text-[#8A7220] uppercase bg-[#F6F2E4] px-1.5 py-0.5 rounded border border-[#E8D98A]">
                 Otomatis
               </span>
             </div>
