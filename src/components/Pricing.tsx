@@ -27,7 +27,7 @@ export const Pricing: React.FC = () => {
           Transaksi pembayaran dikelola aman &amp; terpercaya oleh
         </span>
         <img
-          src="/mayar-logo.png"
+          src="/mayar-logo.webp"
           alt="Mayar - SimplePay"
           className="h-5 sm:h-6 w-auto bg-white rounded-[4px] px-1.5 py-0.5 flex-shrink-0"
         />
