@@ -11,10 +11,12 @@ import { Testimonials } from './components/Testimonials';
 import { FAQ } from './components/FAQ';
 import { Footer } from './components/Footer';
 import { ProjectorModal } from './components/ProjectorModal';
-import { Sparkles, Trophy, ArrowRight } from 'lucide-react';
+import { OnboardingModal } from './components/OnboardingModal';
+import { Sparkles, ArrowRight, BookOpen } from 'lucide-react';
 
 export default function App() {
   const [isProjectorModalOpen, setIsProjectorModalOpen] = useState(false);
+  const [isOnboardingModalOpen, setIsOnboardingModalOpen] = useState(false);
 
   return (
     <div className="min-h-screen bg-[#1E2B22] text-[#1E2B22] font-sans selection:bg-[#C08A2E] selection:text-[#1E2B22] relative">
@@ -75,14 +77,20 @@ export default function App() {
         onClose={() => setIsProjectorModalOpen(false)}
       />
 
+      {/* Onboarding Modal (Simpel / Detail) */}
+      <OnboardingModal
+        isOpen={isOnboardingModalOpen}
+        onClose={() => setIsOnboardingModalOpen(false)}
+      />
+
       {/* Floating CTA bar on mobile bottom */}
       <div className="fixed bottom-0 left-0 right-0 p-3 bg-[#1E2B22]/95 backdrop-blur-md border-t border-[#2C4E3B] md:hidden z-40 flex items-center justify-between gap-3 shadow-2xl">
         <button
-          onClick={() => setIsProjectorModalOpen(true)}
+          onClick={() => setIsOnboardingModalOpen(true)}
           className="flex-1 py-2.5 px-3 bg-[#2C4E3B] text-white text-xs font-semibold rounded-[5px] border border-[#3E6B52] flex items-center justify-center gap-1"
         >
-          <Trophy className="w-3.5 h-3.5 text-[#C08A2E]" />
-          <span>Demo Papan Poin Live</span>
+          <BookOpen className="w-3.5 h-3.5 text-[#C08A2E]" />
+          <span>Kenalan Dulu Yuk</span>
         </button>
 
         <a
