@@ -70,7 +70,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProjectorDemo }) => {
             href="#harga"
             className="w-full sm:w-auto px-6 py-3.5 text-center text-sm font-semibold rounded-[6px] bg-[#C08A2E] hover:bg-[#d49933] text-[#1E2B22] shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-2 font-sans cursor-pointer transform hover:-translate-y-0.5"
           >
-            <span>Mulai Trial 30 Hari Gratis</span>
+            <span>Trial 30 Hari Gratis</span>
             <ArrowRight className="w-4 h-4" />
           </a>
 
