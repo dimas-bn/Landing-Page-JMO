@@ -89,4 +89,18 @@ export const Features: React.FC = () => {
             </div>
           );
         })}
+
+          {/* Kartu "Coming Soon" - placeholder halaman kosong berikutnya */}
+        <div className="rounded-[8px] p-6 flex flex-col items-center justify-center text-center border-2 border-dashed border-[#D8CDB0] bg-[#F6F2E4]/30 min-h-[260px] hover:bg-[#F6F2E4]/50 hover:border-[#C08A2E]/70 transition-colors">
+          <div className="w-10 h-10 rounded-full border-2 border-dashed border-[#C08A2E]/70 text-[#C08A2E] flex items-center justify-center mb-3">
+            <Sparkles className="w-5 h-5" />
+          </div>
+          <h3 className="font-serif-heading font-semibold text-lg text-[#2C4E3B] italic mb-2">
+            Fitur Baru Menyusul...
+          </h3>
+          <p className="text-xs sm:text-[13px] text-[#6E6252] leading-relaxed max-w-[240px]">
+            JMO terus dikembangkan dari masukan guru pengguna langsung. Punya usulan fitur? Kirim lewat menu Info & Masukan di dashboard Anda.
+          </p>
+        </div>
+        
       </div> {/* Natural bridge to free version review */} <p className="text-center text-[#C9D6CC] text-sm mt-10"> Penasaran seperti apa, JMO versi gratis sebelum upgrade?{' '} <a href="https://www.dimasbn.my.id/p/aplikasi-jurnal-mengajar-online-versi.html" target="_blank" rel="noopener noreferrer" className="text-[#C08A2E] font-semibold underline decoration-[#C08A2E]/40 underline-offset-4 hover:text-[#d49933] transition-colors" > Baca cerita lengkapnya di sini → </a> </p> </section> ); };
