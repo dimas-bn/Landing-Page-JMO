@@ -2,7 +2,7 @@ import { PricingPlan, Testimonial, FAQItem, FeatureHighlight, StudentItem } from
 
 export const PROMO_BANNER = {
   active: true, // ganti ke true saat ada promo, false untuk menyembunyikan (mati total, tidak ambil ruang sama sekali)
-  text: 'Diskon 20% semua paket — kuota terbatas 1.000 pengguna, berlaku Sep–Des 2026',
+  text: 'Diskon 20% semua paket — kuota terbatas 1.000 pengguna, berlaku September – Desember 2026',
   code: 'JMO2026',
   ctaHref: '#harga',
 };
