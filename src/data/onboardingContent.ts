@@ -118,7 +118,7 @@ export const ONBOARDING_DETAILED = {
       title: 'Nilai Siswa',
       points: [
         'Input nilai per kelas sekaligus (satu jenis penilaian untuk satu kelas dalam satu kali submit), bukan satu-satu per siswa.',
-        '**KKM bisa diatur sendiri** per guru: batas "Jeblok", batas "Sudah KKM", dan batas "Istimewa". Kalau belum pernah diatur, otomatis pakai default 50/75/90.',
+        '**KKM bisa diatur sendiri** per guru: batas "Jeblok", batas "Sudah KKM", dan batas "Istimewa". Kalau belum pernah diatur, otomatis pakai default 60/70/85.',
         '**Formula nilai rapor kustom** — guru bisa menulis rumus sendiri memakai nama kolom penilaian dalam kurung kurawal, misalnya (UH1+UH2)/2*0.4 + UTS*0.3 + UAS*0.3, dihitung otomatis lewat expression evaluator.',
         'Riwayat nilai per batch bisa diedit atau dihapus.',
       ],
@@ -200,15 +200,6 @@ export const ONBOARDING_DETAILED = {
     },
     {
       number: '14',
-      title: 'Panel Admin (khusus Dimas BN)',
-      points: [
-        'Statistik seluruh pengguna JMO.',
-        '**Log transaksi otomatis** — pembayaran terdeteksi otomatis (gaya webhook), termasuk penanda transaksi yang kemungkinan salah email supaya bisa ditindaklanjuti manual.',
-        'Moderasi testimoni (setujui/tolak) dan balas masukan pengguna langsung dari panel.',
-      ],
-    },
-    {
-      number: '15',
       title: 'Progressive Web App (PWA)',
       points: [
         'Bisa di-install ke HP/laptop seperti aplikasi native, lewat service worker.',
@@ -217,7 +208,7 @@ export const ONBOARDING_DETAILED = {
       ],
     },
     {
-      number: '16',
+      number: '15',
       title: 'Backup Data Mandiri',
       points: [
         'Tombol "Download Semua Data Saya (Backup Lengkap)" mengekspor seluruh data milik guru ke satu file Excel dengan 6 sheet terpisah: Kelas, Siswa, Jadwal, Jurnal & Absensi, Nilai, dan Catatan Persiapan.',
