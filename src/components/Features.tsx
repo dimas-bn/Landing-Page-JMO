@@ -91,7 +91,7 @@ export const Features: React.FC = () => {
         })}
 
           {/* Kartu "Coming Soon" - placeholder halaman kosong berikutnya */}
-        <div className="rounded-[8px] p-6 flex flex-col items-center justify-center text-center border-2 border-dashed border-[#D8CDB0] bg-[#F6F2E4]/30 min-h-[260px] hover:bg-[#F6F2E4]/50 hover:border-[#C08A2E]/70 transition-colors">
+        <div className="rounded-[8px] p-6 flex flex-col items-center justify-center text-center border-2 border-dashed border-[#B7C6CB] bg-[#EFEADA] min-h-[260px] hover:border-[#C08A2E] transition-colors">
           <div className="w-10 h-10 rounded-full border-2 border-dashed border-[#C08A2E]/70 text-[#C08A2E] flex items-center justify-center mb-3">
             <Sparkles className="w-5 h-5" />
           </div>
