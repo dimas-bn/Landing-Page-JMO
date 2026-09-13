@@ -1,8 +1,8 @@
 import { PricingPlan, Testimonial, FAQItem, FeatureHighlight, StudentItem } from '../types';
 
 export const PROMO_BANNER = {
-  active: false, // ganti ke true saat ada promo, false untuk menyembunyikan (mati total, tidak ambil ruang sama sekali)
-  text: 'Diskon spesial Paket Tahunan, khusus bulan ini!',
+  active: true, // ganti ke true saat ada promo, false untuk menyembunyikan (mati total, tidak ambil ruang sama sekali)
+  text: 'Diskon Promo Launching JMO, sampai 31 Desember 2026',
   ctaText: 'Klaim Sekarang',
   ctaHref: '#harga',
 };
