@@ -11,7 +11,7 @@ export const PromoBanner: React.FC = () => {
       <span>{PROMO_BANNER.text}</span>
       {PROMO_BANNER.ctaText && PROMO_BANNER.ctaHref && (
         
-          href={PROMO_BANNER.ctaHref}
+         <a href={PROMO_BANNER.ctaHref}
           className="underline font-bold hover:text-white transition-colors"
         >
           {PROMO_BANNER.ctaText} →
