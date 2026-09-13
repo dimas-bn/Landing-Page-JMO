@@ -52,10 +52,10 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProjectorDemo }) => {
   return (
       <section className="relative pt-8 pb-16 md:pt-14 md:pb-24 overflow-hidden">
         {/* Ambient background: dot-grid halus + glow orb mengambang */}
-        <div className="absolute inset-0 hero-grid-overlay opacity-[0.15] pointer-events-none" />
-        <div className="hero-blob-a absolute top-0 left-1/2 w-[800px] h-[350px] bg-[#3E6B52]/15 blur-[120px] rounded-full pointer-events-none" />
-        <div className="hero-blob-b absolute top-10 left-[15%] w-[420px] h-[420px] bg-[#C08A2E]/10 blur-[110px] rounded-full pointer-events-none" />
-        <div className="hero-blob-c absolute top-24 right-[10%] w-[380px] h-[380px] bg-[#A6493C]/10 blur-[100px] rounded-full pointer-events-none" />
+        <div className="absolute inset-0 hero-grid-overlay opacity-[0.3] pointer-events-none" />
+        <div className="hero-blob-a absolute top-0 left-1/2 w-[800px] h-[350px] bg-[#3E6B52]/20 blur-[120px] rounded-full pointer-events-none" />
+        <div className="hero-blob-b absolute top-10 left-[15%] w-[420px] h-[420px] bg-[#C08A2E]/25 blur-[90px] rounded-full pointer-events-none" />
+        <div className="hero-blob-c absolute top-24 right-[10%] w-[380px] h-[380px] bg-[#A6493C]/22 blur-[85px] rounded-full pointer-events-none" />
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
         {/* Top Eyebrow Chip with Icon */}
