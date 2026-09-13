@@ -44,7 +44,7 @@ export const OnboardingModal: React.FC<OnboardingModalProps> = ({ isOpen, onClos
                   Kenalan Dulu
                 </span>
                 <h3 className="font-serif-heading italic font-bold text-lg sm:text-xl md:text-2xl text-[#F6F2E4] tracking-wide truncate">
-                  Apa Itu Jurnal Mengajar Online?
+                  Apa Itu JMO?
                 </h3>
               </div>
             </div>
