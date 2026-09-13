@@ -7,7 +7,9 @@ import {
   Printer,
   History,
   Sparkles,
-  Check
+  Check,
+  WifiOff,
+  GraduationCap
 } from 'lucide-react';
 import { FEATURE_HIGHLIGHTS } from '../data/jmoContent';
 
@@ -18,6 +20,10 @@ const ICON_MAP: Record<string, any> = {
   Users,
   Printer,
   History,
+  Sparkles,
+  Check,
+  WifiOff,
+  GraduationCap
 };
 
 export const Features: React.FC = () => {
