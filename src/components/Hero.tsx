@@ -40,7 +40,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProjectorDemo }) => {
         setPhraseIndex((prev) => (prev + 1) % rotatingPhrases.length);
         setIsVisible(true); // fade-in teks baru
       }, 350); // durasi fade-out, harus sinkron dgn transition-duration di bawah
-    }, 2800); // jeda tiap pergantian kata
+    }, 3000); // jeda tiap pergantian kata 3 detik
     return () => clearInterval(interval);
   }, []);
 
