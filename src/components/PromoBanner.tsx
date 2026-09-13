@@ -24,7 +24,7 @@ export const PromoBanner: React.FC = () => {
       <span>{PROMO_BANNER.text}</span>
       {PROMO_BANNER.code && (
         
-          href={PROMO_BANNER.ctaHref}
+       <a href={PROMO_BANNER.ctaHref}
           onClick={handleCopyCode}
           className="inline-flex items-center gap-1.5 bg-[#1E2B22] text-[#F6F2E4] px-2.5 py-1 rounded-full font-bold hover:bg-[#2C4E3B] transition-colors"
         >
