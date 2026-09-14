@@ -103,13 +103,15 @@ export const Hero: React.FC<HeroProps> = ({ onOpenProjectorDemo, onOpenOnboardin
             <ArrowRight className="w-4 h-4" />
           </a>
 
-          <a
-            href="#demo-interaktif"
+          <button
+            type="button"
+            onClick={onOpenOnboarding}
             className="w-full sm:w-auto px-6 py-3.5 text-center text-sm font-semibold rounded-[6px] bg-[#2C4E3B] hover:bg-[#3E6B52] text-[#F6F2E4] border border-[#3E6B52] transition-all flex items-center justify-center gap-2 cursor-pointer"
           >
             <Sparkles className="w-4 h-4 text-[#C08A2E]" />
-            <span>Coba Demo Interaktif</span>
-          </a>
+            <span>Apa itu JMO?</span>
+          </button>
+          
         </div>
 
         {/* Trust Badges */}
