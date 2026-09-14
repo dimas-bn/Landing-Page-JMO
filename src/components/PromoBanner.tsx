@@ -19,14 +19,14 @@ export const PromoBanner: React.FC = () => {
   };
 
   return (
-    <div className="bg-[#C08A2E] text-[#1E2B22] py-2 px-4 text-center text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 flex-wrap">
-      <Gift className="w-4 h-4 flex-shrink-0" />
+    <div className="bg-white text-[#0069D9] py-2 px-4 text-center text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 flex-wrap border-b border-gray-200">
+      <Gift className="w-4 h-4 flex-shrink-0 text-[#E94992]" />
       <span>{PROMO_BANNER.text}</span>
       {PROMO_BANNER.code && (
         
        <a href={PROMO_BANNER.ctaHref}
           onClick={handleCopyCode}
-          className="inline-flex items-center gap-1.5 bg-[#1E2B22] text-[#F6F2E4] px-2.5 py-1 rounded-full font-bold hover:bg-[#2C4E3B] transition-colors"
+          className="inline-flex items-center gap-1.5 bg-[#343A40] text-[#EEEEEE] px-2.5 py-1 rounded-full font-bold hover:bg-[#495057] transition-colors"
         >
           {copied ? (
             <>
