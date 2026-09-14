@@ -44,7 +44,10 @@ export default function App() {
 
       <main>
         {/* Hero Section */}
-        <Hero onOpenProjectorDemo={() => setIsProjectorModalOpen(true)} />
+        <Hero
+          onOpenProjectorDemo={() => setIsProjectorModalOpen(true)}
+          onOpenOnboarding={() => setIsOnboardingModalOpen(true)}
+        />
 
         {/* Interactive Simulator Playground */}
         <InteractiveDemo onOpenProjectorDemo={() => setIsProjectorModalOpen(true)} />
