@@ -20,8 +20,10 @@ export const PromoBanner: React.FC = () => {
 
   return (
     <div className="bg-white text-[#0069D9] py-2 px-4 text-center text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 flex-wrap border-b border-gray-200">
-      <Gift className="w-4 h-4 flex-shrink-0 text-[#E94992]" />
-      <span>{PROMO_BANNER.text}</span>
+      <div className="flex items-center gap-2">
+        <Gift className="w-4 h-4 flex-shrink-0 text-[#E94992]" />
+        <span>{PROMO_BANNER.text}</span>
+      </div>
       {PROMO_BANNER.code && (
         
        <a href={PROMO_BANNER.ctaHref}
