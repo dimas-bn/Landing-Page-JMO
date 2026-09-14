@@ -16,9 +16,11 @@ import { JmoLogo } from './JmoLogo';
 
 interface HeroProps {
   onOpenProjectorDemo: () => void;
+  onOpenOnboarding: () => void;
 }
 
-export const Hero: React.FC<HeroProps> = ({ onOpenProjectorDemo }) => {
+export const Hero: React.FC<HeroProps> = ({ onOpenProjectorDemo, onOpenOnboarding }) => {
+  
   // Mini interactive state inside Hero card preview
   const [selectedStatus, setSelectedStatus] = useState<string>('Hadir');
   const [points, setPoints] = useState<number>(4);
