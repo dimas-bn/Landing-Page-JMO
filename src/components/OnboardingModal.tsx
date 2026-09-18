@@ -232,7 +232,23 @@ const DetailView: React.FC = () => {
         </div>
       ))}
 
-      const PaymentGuideView: React.FC = () => {
+        <div className="rounded-[8px] border border-[#D8CDB0] bg-[#EFEADA] p-4 sm:p-5">
+          <h4 className="font-serif-heading font-bold text-base sm:text-lg text-[#5B6B8C] mb-2">
+            {limitations.title}
+          </h4>
+          <ul className="space-y-1.5 list-disc list-outside pl-4 sm:pl-5">
+            {limitations.points.map((pt, i) => (
+              <li key={i} className="text-sm leading-relaxed text-[#6E6252]">
+                {pt}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    );
+  };
+
+  const PaymentGuideView: React.FC = () => {
   const [index, setIndex] = useState(0);
   const slides = MAYAR_PAYMENT_GUIDE;
   const slide = slides[index];
@@ -293,22 +309,6 @@ const DetailView: React.FC = () => {
       <span className="text-xs text-[#6E6252] mt-2">
         {index + 1} / {slides.length}
       </span>
-    </div>
-  );
-};
-
-      <div className="rounded-[8px] border border-[#D8CDB0] bg-[#EFEADA] p-4 sm:p-5">
-        <h4 className="font-serif-heading font-bold text-base sm:text-lg text-[#5B6B8C] mb-2">
-          {limitations.title}
-        </h4>
-        <ul className="space-y-1.5 list-disc list-outside pl-4 sm:pl-5">
-          {limitations.points.map((pt, i) => (
-            <li key={i} className="text-sm leading-relaxed text-[#6E6252]">
-              {pt}
-            </li>
-          ))}
-        </ul>
-      </div>
     </div>
   );
 };
