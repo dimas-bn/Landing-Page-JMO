@@ -30,11 +30,7 @@ export const MAYAR_PAYMENT_GUIDE: MayarGuideSlide[] = [
     caption: 'Saat membayar di Mayar, pastikan pakai EMAIL / GMAIL SAMA seperti saat mendaftarkan akun.',
   },
   {
-    image: '/06-metode-bayar.png',
-    caption: 'Pilih metode pembayaran, klik "PUNYA KODE DISKON?", masukkan kode (jika ada) secara manual.',
-  },
-  {
-    image: '/07-aktivasi.png',
-    caption: 'Selesai — akun teraktivasi otomatis dalam hitungan detik, tanpa konfirmasi manual.',
+    image: '/06-metode-bayar-dan-aktivasi.png',
+    caption: 'Pilih metode pembayaran, klik "PUNYA KODE DISKON?", masukkan kode (jika ada) secara manual. Selesai — akun teraktivasi otomatis dalam hitungan detik, tanpa konfirmasi manual.',
   },
 ];
