@@ -22,6 +22,10 @@ export const MAYAR_PAYMENT_GUIDE: MayarGuideSlide[] = [
     caption: 'Saat tombol diklik, Anda akan langsung membuka Web dimasbn.myr.id untuk melakukan pembayaran.',
   },
   {
+    image: '/04-klik-bayar.png',
+    caption: 'Masuk Web dimasbn.myr.id (Sistem Pembayaran Otomatis "Mayar"), klik tombol BELI SEKARANG.',
+  },
+  {
     image: '/04-bayar-mayar.png',
     caption: 'Saat membayar di Mayar, pastikan pakai email SAMA seperti saat daftar akun.',
   },
