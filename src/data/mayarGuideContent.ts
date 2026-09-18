@@ -26,11 +26,15 @@ export const MAYAR_PAYMENT_GUIDE: MayarGuideSlide[] = [
     caption: 'Masuk Web dimasbn.myr.id (Sistem Pembayaran Otomatis "Mayar"), klik tombol BELI SEKARANG.',
   },
   {
-    image: '/04-bayar-mayar.png',
-    caption: 'Saat membayar di Mayar, pastikan pakai email SAMA seperti saat daftar akun.',
+    image: '/05-isi-identitas.png',
+    caption: 'Saat membayar di Mayar, pastikan pakai EMAIL / GMAIL SAMA seperti saat mendaftarkan akun.',
   },
   {
-    image: '/05-aktivasi.png',
+    image: '/06-metode-bayar.png',
+    caption: 'Pilih metode pembayaran, klik "PUNYA KODE DISKON?", masukkan kode (jika ada) secara manual.',
+  },
+  {
+    image: '/07-aktivasi.png',
     caption: 'Selesai — akun teraktivasi otomatis dalam hitungan detik, tanpa konfirmasi manual.',
   },
 ];
