@@ -256,7 +256,7 @@ export const Pricing: React.FC = () => {
       <p className="text-center text-[#C9D6CC] text-sm mt-10">
         Versi awal (Google Apps Script) tetap gratis selamanya, untuk yang mau setup sendiri...{' '}
         
-          href="https://www.dimasbn.my.id/p/aplikasi-jurnal-mengajar-online-versi.html"
+       <a href="https://www.dimasbn.my.id/p/aplikasi-jurnal-mengajar-online-versi.html"
           target="_blank"
           rel="noopener noreferrer"
           className="text-[#C08A2E] font-semibold underline decoration-[#C08A2E]/40 underline-offset-4 hover:text-[#d49933] transition-colors"
