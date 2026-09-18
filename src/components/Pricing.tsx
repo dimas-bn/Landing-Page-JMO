@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import { Check, Sparkles, ArrowRight, ShieldCheck, HelpCircle, Star, Zap, Clock, Infinity } from 'lucide-react';
 import { PRICING_PLANS } from '../data/jmoContent';
+import { MayarPaymentGuideModal } from './MayarPaymentGuideModal';
 
 export const Pricing: React.FC = () => {
+  const [isMayarGuideOpen, setIsMayarGuideOpen] = useState(false);
+
   return (
     <section id="harga" className="py-16 md:py-24 max-w-7xl 2xl:max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
       {/* Section Header */}
@@ -20,8 +23,12 @@ export const Pricing: React.FC = () => {
         </p>
       </div>
 
-      {/* Trust Badge - Keamanan Transaksi via Mayar */}
-      <div className="flex flex-wrap items-center justify-center gap-2.5 mx-auto mb-10 px-5 py-2.5 rounded-full bg-[#18231C] border border-[#2C4E3B] w-fit max-w-full shadow-sm">
+      {/* Trust Badge - Keamanan Transaksi via Mayar (klik untuk lihat panduan) */}
+      <button
+        type="button"
+        onClick={() => setIsMayarGuideOpen(true)}
+        className="flex flex-wrap items-center justify-center gap-2.5 mx-auto mb-10 px-5 py-2.5 rounded-full bg-[#18231C] border border-[#2C4E3B] w-fit max-w-full shadow-sm hover:border-[#C08A2E] transition-colors cursor-pointer"
+      >
         <ShieldCheck className="w-4 h-4 text-[#C08A2E] flex-shrink-0" />
         <span className="text-[#C9D6CC] text-xs sm:text-sm text-center">
           Transaksi pembayaran dikelola aman &amp; terpercaya oleh
@@ -31,7 +38,10 @@ export const Pricing: React.FC = () => {
           alt="Mayar - SimplePay"
           className="h-5 sm:h-6 w-auto bg-white rounded-[4px] px-1.5 py-0.5 flex-shrink-0"
         />
-      </div>
+        <span className="text-[10.5px] text-[#C08A2E] font-semibold underline underline-offset-2">
+          Lihat cara bayar →
+        </span>
+      </button>
 
       {/* Pricing Cards Grid - Spacious & Balanced on Large Displays */}
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 xl:gap-6 2xl:gap-8 items-stretch">
@@ -245,7 +255,7 @@ export const Pricing: React.FC = () => {
       {/* Natural bridge to full pricing detail page */}
       <p className="text-center text-[#C9D6CC] text-sm mt-10">
         Versi awal (Google Apps Script) tetap gratis selamanya, untuk yang mau setup sendiri...{' '}
-        <a
+        
           href="https://www.dimasbn.my.id/p/aplikasi-jurnal-mengajar-online-versi.html"
           target="_blank"
           rel="noopener noreferrer"
@@ -254,6 +264,12 @@ export const Pricing: React.FC = () => {
           Lihat JMO versi awal / GRATIS selamanya →
         </a>
       </p>
+
+      {/* Modal panduan pembayaran Mayar */}
+      <MayarPaymentGuideModal
+        isOpen={isMayarGuideOpen}
+        onClose={() => setIsMayarGuideOpen(false)}
+      />
     </section>
   );
 };
