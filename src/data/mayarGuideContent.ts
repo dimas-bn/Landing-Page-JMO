@@ -11,7 +11,7 @@ export const MAYAR_PAYMENT_GUIDE: MayarGuideSlide[] = [
   },
   {
     image: '/02-jalur-web.png',
-    caption: 'Pilih paket yang tersedia di halaman Harga, lalu klik tombol yang sesuai pilihan.',
+    caption: 'Pilih paket yang tersedia di Web JMO atau Web dimasbn, lalu klik tombol yang sesuai pilihan.',
   },
   {
     image: '/03-bayar-mayar.png',
