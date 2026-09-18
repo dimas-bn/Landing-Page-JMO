@@ -18,7 +18,7 @@ export const MAYAR_PAYMENT_GUIDE: MayarGuideSlide[] = [
     caption: 'Pilih paket yang tersedia di Web JMO atau Web dimasbn, lalu klik tombol yang sesuai pilihan.',
   },
   {
-    image: '/03-piih-paket.png',
+    image: '/03-pilih-paket.png',
     caption: 'Saat tombol diklik, Anda akan langsung membuka Web dimasbn.myr.id untuk melakukan pembayaran.',
   },
   {
