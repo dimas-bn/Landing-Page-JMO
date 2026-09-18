@@ -25,7 +25,7 @@ export const MayarPaymentGuideModal: React.FC<MayarPaymentGuideModalProps> = ({ 
   return (
     <div className="fixed inset-0 z-50 bg-black/90 backdrop-blur-lg overflow-y-auto overflow-x-hidden">
       <div className="min-h-full flex items-start sm:items-center justify-center p-2 sm:p-4 md:p-6">
-        <div className="bg-[#142018] border-2 border-[#C08A2E] text-[#F6F2E4] rounded-[12px] w-full max-w-2xl shadow-2xl overflow-hidden animate-fadeIn my-4 sm:my-0">
+        <div className="bg-[#142018] border-2 border-[#C08A2E] text-[#F6F2E4] rounded-[12px] w-full max-w-sm sm:max-w-md shadow-2xl overflow-hidden animate-fadeIn my-4 sm:my-0">
           {/* Header */}
           <div className="bg-[#1E2E23] px-4 sm:px-6 py-3.5 border-b border-[#2C4E3B] flex items-center justify-between gap-4">
             <div className="flex items-center gap-3 min-w-0">
@@ -58,7 +58,7 @@ export const MayarPaymentGuideModal: React.FC<MayarPaymentGuideModalProps> = ({ 
               <img
                 src={slide.image}
                 alt={slide.caption}
-                className="w-full aspect-[4/3] object-contain bg-white"
+                className="w-full aspect-[9/16] object-contain bg-white"
               />
 
               {slides.length > 1 && (
