@@ -1,13 +1,14 @@
 import React, { useState, Fragment } from 'react';
-import { X, BookOpen, ListChecks, Sparkles, ShieldCheck } from 'lucide-react';
+import { X, BookOpen, ListChecks, Sparkles, ShieldCheck, CreditCard, ChevronLeft, ChevronRight } from 'lucide-react';
 import { ONBOARDING_SIMPLE, ONBOARDING_DETAILED } from '../data/onboardingContent';
+import { MAYAR_PAYMENT_GUIDE } from '../data/mayarGuideContent';
 
 interface OnboardingModalProps {
   isOpen: boolean;
   onClose: () => void;
 }
 
-type OnboardingView = 'simpel' | 'detail';
+type OnboardingView = 'simpel' | 'detail' | 'bayar';
 
 // Helper ringan untuk render **teks tebal** dari data tanpa perlu
 // dependency markdown-parser baru — cukup untuk kebutuhan konten ini.
@@ -85,8 +86,24 @@ export const OnboardingModal: React.FC<OnboardingModalProps> = ({ isOpen, onClos
               <ListChecks className="w-3.5 h-3.5" />
               Detail
             </button>
+            <button
+              type="button"
+              onClick={() => setView('bayar')}
+              className={`flex-1 sm:flex-none flex items-center justify-center gap-1.5 px-4 py-2 rounded-[6px] text-xs sm:text-sm font-semibold border transition-colors cursor-pointer ${
+                view === 'bayar'
+                  ? 'bg-[#C08A2E] text-[#142018] border-[#C08A2E]'
+                  : 'bg-transparent text-[#CFE0D3] border-[#3E6B52] hover:bg-[#2C4E3B]'
+              }`}
+            >
+              <CreditCard className="w-3.5 h-3.5" />
+              Minat?
+            </button>
             <span className="hidden sm:inline text-[11px] text-[#A8BEAF] ml-auto">
-              {view === 'simpel' ? 'Ringkas, 1 menit baca' : 'Rincian tiap fitur & batasannya'}
+              {view === 'simpel'
+                ? 'Ringkas, 1 menit baca'
+                : view === 'detail'
+                ? 'Rincian tiap fitur & batasannya'
+                : 'Panduan visual langkah demi langkah'}
             </span>
           </div>
 
@@ -95,8 +112,10 @@ export const OnboardingModal: React.FC<OnboardingModalProps> = ({ isOpen, onClos
             <div className="notebook-page notebook-margin-line rounded-[8px] p-5 sm:p-8 pl-10 sm:pl-14 text-[#1E2B22]">
               {view === 'simpel' ? (
                 <SimpleView />
-              ) : (
+              ) : view === 'detail' ? (
                 <DetailView />
+              ) : (
+                <PaymentGuideView />
               )}
             </div>
           </div>
@@ -212,6 +231,71 @@ const DetailView: React.FC = () => {
           </ul>
         </div>
       ))}
+
+      const PaymentGuideView: React.FC = () => {
+  const [index, setIndex] = useState(0);
+  const slides = MAYAR_PAYMENT_GUIDE;
+  const slide = slides[index];
+
+  const goPrev = () => setIndex((i) => (i === 0 ? slides.length - 1 : i - 1));
+  const goNext = () => setIndex((i) => (i === slides.length - 1 ? 0 : i + 1));
+
+  return (
+    <div className="flex flex-col items-center">
+      <div className="relative w-full max-w-xs mx-auto rounded-[8px] overflow-hidden border border-[#D8CDB0] bg-white">
+        <img
+          src={slide.image}
+          alt={slide.caption}
+          className="w-full aspect-[9/16] object-contain"
+        />
+        {slides.length > 1 && (
+          <>
+            <button
+              type="button"
+              onClick={goPrev}
+              aria-label="Sebelumnya"
+              className="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-[#1E2B22]/80 text-[#F6F2E4] hover:bg-[#1E2B22] flex items-center justify-center cursor-pointer"
+            >
+              <ChevronLeft className="w-4 h-4" />
+            </button>
+            <button
+              type="button"
+              onClick={goNext}
+              aria-label="Berikutnya"
+              className="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-[#1E2B22]/80 text-[#F6F2E4] hover:bg-[#1E2B22] flex items-center justify-center cursor-pointer"
+            >
+              <ChevronRight className="w-4 h-4" />
+            </button>
+          </>
+        )}
+      </div>
+
+      <p className="text-center text-sm sm:text-base leading-relaxed mt-4 max-w-md text-[#1E2B22]">
+        {slide.caption}
+      </p>
+
+      {slides.length > 1 && (
+        <div className="flex items-center justify-center gap-2 mt-4">
+          {slides.map((_, i) => (
+            <button
+              key={i}
+              type="button"
+              onClick={() => setIndex(i)}
+              aria-label={`Slide ${i + 1}`}
+              className={`h-2 rounded-full transition-all cursor-pointer ${
+                i === index ? 'w-6 bg-[#C08A2E]' : 'w-2 bg-[#D8CDB0]'
+              }`}
+            />
+          ))}
+        </div>
+      )}
+
+      <span className="text-xs text-[#6E6252] mt-2">
+        {index + 1} / {slides.length}
+      </span>
+    </div>
+  );
+};
 
       <div className="rounded-[8px] border border-[#D8CDB0] bg-[#EFEADA] p-4 sm:p-5">
         <h4 className="font-serif-heading font-bold text-base sm:text-lg text-[#5B6B8C] mb-2">
