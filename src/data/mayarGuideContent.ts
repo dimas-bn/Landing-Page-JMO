@@ -10,15 +10,15 @@ export const MAYAR_PAYMENT_GUIDE: MayarGuideSlide[] = [
     caption: 'Daftar akun dulu di member.jurnalmengajar.web.id — gratis pakai, selama 30 hari.',
   },
   {
-    image: '/mayar-guide/02-pilih-paket.png',
+    image: '/02-jalur-web.png',
     caption: 'Pilih paket yang tersedia di halaman Harga, lalu klik tombol yang sesuai pilihan.',
   },
   {
-    image: '/mayar-guide/03-bayar-mayar.png',
+    image: '/03-bayar-mayar.png',
     caption: 'Saat membayar di Mayar, pastikan pakai email SAMA seperti saat daftar akun.',
   },
   {
-    image: '/mayar-guide/04-aktivasi.png',
+    image: '/04-aktivasi.png',
     caption: 'Selesai — akun teraktivasi otomatis dalam hitungan detik, tanpa konfirmasi manual.',
   },
 ];
