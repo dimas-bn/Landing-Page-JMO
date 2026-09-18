@@ -6,6 +6,10 @@ export interface MayarGuideSlide {
 // Ganti path `image` ini setelah screenshot asli di-upload ke /public/mayar-guide/
 export const MAYAR_PAYMENT_GUIDE: MayarGuideSlide[] = [
   {
+    image: '/00-pilih-jalur.png',
+    caption: 'Pilih dari salah satu "Pintu Masuk" di atas, untuk mendaftar terlebih dahulu.',
+  },
+  {
     image: '/01-daftar-akun.png',
     caption: 'Daftar akun dulu di member.jurnalmengajar.web.id — gratis pakai, selama 30 hari.',
   },
