@@ -18,11 +18,15 @@ export const MAYAR_PAYMENT_GUIDE: MayarGuideSlide[] = [
     caption: 'Pilih paket yang tersedia di Web JMO atau Web dimasbn, lalu klik tombol yang sesuai pilihan.',
   },
   {
-    image: '/03-bayar-mayar.png',
+    image: '/03-piih-paket.png',
+    caption: 'Saat tombol diklik, Anda akan langsung membuka Web dimasbn.myr.id untuk melakukan pembayaran.',
+  },
+  {
+    image: '/04-bayar-mayar.png',
     caption: 'Saat membayar di Mayar, pastikan pakai email SAMA seperti saat daftar akun.',
   },
   {
-    image: '/04-aktivasi.png',
+    image: '/05-aktivasi.png',
     caption: 'Selesai — akun teraktivasi otomatis dalam hitungan detik, tanpa konfirmasi manual.',
   },
 ];
