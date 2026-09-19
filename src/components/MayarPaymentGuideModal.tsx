@@ -34,7 +34,7 @@ export const MayarPaymentGuideModal: React.FC<MayarPaymentGuideModalProps> = ({ 
               </div>
               <div className="min-w-0">
                 <span className="inline-flex items-center gap-1 text-[10px] uppercase font-bold tracking-widest text-[#E6C26E]">
-                  Panduan Pembayaran
+                  Panduan Berlangganan
                 </span>
                 <h3 className="font-serif-heading italic font-bold text-lg sm:text-xl text-[#F6F2E4] tracking-wide truncate">
                   Cara Bayar via Mayar
