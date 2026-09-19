@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useVisitorTracking } from './hooks/useVisitorTracking';
 import { PromoBanner } from './components/PromoBanner';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
@@ -15,6 +16,7 @@ import { OnboardingModal } from './components/OnboardingModal';
 import { Sparkles, ArrowRight, BookOpen } from 'lucide-react';
 
 export default function App() {
+  useVisitorTracking();
   const [isProjectorModalOpen, setIsProjectorModalOpen] = useState(false);
   const [isOnboardingModalOpen, setIsOnboardingModalOpen] = useState(false);
 
