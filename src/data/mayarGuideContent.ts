@@ -31,6 +31,6 @@ export const MAYAR_PAYMENT_GUIDE: MayarGuideSlide[] = [
   },
   {
     image: '/06-metode-bayar-dan-aktivasi.png',
-    caption: 'Pilih metode pembayaran, klik "PUNYA KODE DISKON?", masukkan kode (jika ada) secara manual. Selesai — akun teraktivasi otomatis dalam hitungan detik, tanpa konfirmasi manual.',
+    caption: 'Pilih metode pembayaran, klik "PUNYA KODE DISKON?", masukkan kode (jika ada) secara manual. Bayar. Selesai — akun teraktivasi otomatis hitungan detik, tanpa konfirmasi manual.',
   },
 ];
