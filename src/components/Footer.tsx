@@ -155,10 +155,10 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Bottom copyright */}
-        <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-[#7A8C7F] gap-3">
-          <div>
+        <div className="pt-4 pb-4 flex flex-col sm:flex-row items-center justify-center sm:gap-6 text-xs text-[#7A8C7F] gap-3 border-t border-b border-[#2C4E3B]/60">
+          <div className="text-center">
             © {new Date().getFullYear()} Jurnal Mengajar Online (JMO) · Dikembangkan oleh{' '}
-            <a
+            
               href="https://www.dimasbn.my.id/"
               target="_blank"
               rel="noopener noreferrer"
@@ -180,12 +180,12 @@ export const Footer: React.FC = () => {
             <ArrowUp className="w-3.5 h-3.5" />
           </button>
         </div>
+
+        {/* Statistik pengunjung */}
+        <div className="pt-4 flex justify-center">
+          <VisitorStats />
+        </div>
       </div>
-     {/* Statistik pengunjung */}
-    <div className="border-t border-[#3E6B52]/40 pt-4 flex justify-center">
-      <VisitorStats />
-    </div>
-     {/* Bottom copyright */}
-  </footer>
+    </footer>
   );
 };
