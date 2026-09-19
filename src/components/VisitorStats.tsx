@@ -28,7 +28,7 @@ export default function VisitorStats() {
   if (!stats) return null;
 
   return (
-    <div className="text-xs text-[#6E6252] flex flex-wrap gap-x-4 gap-y-1">
+    <div className="flex flex-wrap justify-center gap-x-4 gap-y-1.5 text-xs text-[#6E6252] text-center">
       <span>Total: <strong>{stats.total.toLocaleString('id-ID')}</strong></span>
       <span>Hari ini: <strong>{stats.hari_ini.toLocaleString('id-ID')}</strong></span>
       <span>Online sekarang: <strong>{online}</strong></span>
