@@ -1,6 +1,7 @@
 import React from 'react';
 import { ExternalLink, Send, Heart, ArrowUp } from 'lucide-react';
 import { JmoLogo } from './JmoLogo';
+import VisitorStats from './VisitorStats';
 
 export const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -180,6 +181,11 @@ export const Footer: React.FC = () => {
           </button>
         </div>
       </div>
-    </footer>
+     {/* Statistik pengunjung */}
+    <div className="border-t border-[#3E6B52]/40 pt-4 flex justify-center">
+      <VisitorStats />
+    </div>
+     {/* Bottom copyright */}
+  </footer>
   );
 };
