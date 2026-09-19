@@ -159,7 +159,7 @@ export const Footer: React.FC = () => {
           <div className="text-center">
             © {new Date().getFullYear()} Jurnal Mengajar Online (JMO) · Dikembangkan oleh{' '}
             
-              href="https://www.dimasbn.my.id/"
+           <a href="https://www.dimasbn.my.id/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#A8BEAF] hover:text-white transition-colors"
