@@ -14,9 +14,11 @@ function detectDeviceType(): 'mobile' | 'desktop' {
 
 export function useVisitorTracking() {
   useEffect(() => {
-    supabase.rpc('catat_kunjungan_landing', {
-      p_session_id: getSessionId(),
-      p_device_type: detectDeviceType(),
-    });
+      supabase.rpc('catat_kunjungan_landing', {
+        p_session_id: getSessionId(),
+        p_device_type: detectDeviceType(),
+      }).then(({ error }) => {
+        if (error) console.error('[JMO] Gagal catat kunjungan:', error);
+      });
   }, []);
 }
